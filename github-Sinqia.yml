@@ -1,5 +1,5 @@
 name: GitHub Sinqia
-run-name: ${{ github.actor }} realizando os testes no blog Agi 🚀
+run-name: run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   Explore-GitHub-Actions:
