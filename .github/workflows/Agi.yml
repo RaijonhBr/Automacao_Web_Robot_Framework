@@ -16,6 +16,7 @@ jobs:
     - run: | 
         python -m pip install --upgrade pip
     - run: pip install robotframework
+    - run: pip install robotframework-faker
     - run: pip install robotframework-browser
     - run: rfbrowser init
     - run: robot -d ./resource/04_Evidencias tests
