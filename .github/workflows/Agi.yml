@@ -18,9 +18,6 @@ jobs:
     - run: pip install robotframework
     - run: pip install robotframework-browser
     - run: rfbrowser init
-    - run: curl -fsSL https://fnm.vercel.app/install | bash
-    - run: source ~/.bashrc
-    - run: fnm use --install-if-missing 20
     - run: robot -d ./resource/04_Evidencias tests
 
     
