@@ -5,3 +5,4 @@ Para a execução dessa automação estamos utilizando:
 - Framework Robot/PlayWright
 - Library Browser
 - VsCode
+

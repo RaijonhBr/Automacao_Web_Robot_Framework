@@ -1,0 +1,603 @@
+{"level":30,"time":"2024-08-01T23:44:26.061Z","pid":5628,"hostname":"Raijonh","msg":"Listening on 50857"}
+(node:5628) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-08-01T23:44:26.187Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:26.188Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:26.190Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:26.191Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:26.196Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-08-01T23:44:26.723Z","pid":5628,"hostname":"Raijonh","msg":"Adding browser to stack: firefox, version: 127.0"}
+{"level":30,"time":"2024-08-01T23:44:26.724Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-08-01T23:44:26.724Z","pid":5628,"hostname":"Raijonh","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-08-01T23:44:26.730Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:26.730Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:26.730Z","pid":5628,"hostname":"Raijonh","msg":"Trace file: C:\\frontend\\resource\\05_Evidencias\\traces\\01-08-2024_204426\\0ac6d6c4-c6f9-406e-b66f-6280d527b15b.zip"}
+{"level":30,"time":"2024-08-01T23:44:26.759Z","pid":5628,"hostname":"Raijonh","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
+{"level":30,"time":"2024-08-01T23:44:26.760Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:26.760Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:26.767Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:26.767Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:28.083Z","pid":5628,"hostname":"Raijonh","msg":"Video path: undefined"}
+{"level":30,"time":"2024-08-01T23:44:28.084Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:29.719Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:29.727Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:29.728Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:30.026Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.034Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.034Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Produtos')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:30.149Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.155Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.155Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Serviços')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:30.261Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.264Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.264Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Suas finanças')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:30.375Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.380Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.380Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Sua segurança')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:30.505Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.509Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.509Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Stories')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:30.620Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.625Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.625Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:30.739Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:30.745Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:30.745Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\O Agibank.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:30.897Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:30.904Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:30.905Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:31.098Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:31.107Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:31.107Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Colunas')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:31.550Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:31.554Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:31.554Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Notícias')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:31.723Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:31.727Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:31.727Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Carreira')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:31.843Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:31.849Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:31.849Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Colunas')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:32.022Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:32.029Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:32.029Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:32.383Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[1] containing A tragédia climática no RS. Saber lidar com os extremos do clima e a água já era o maior problema econômico e social do RS. O que será feito agora?"}
+{"level":30,"time":"2024-08-01T23:44:32.383Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:32.388Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:32.388Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:44:32.450Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[2] containing Melhorar a qualidade da educação para haver mais oportunidades, produtividade e crescimento"}
+{"level":30,"time":"2024-08-01T23:44:32.450Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:32.456Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:32.456Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[3] in page."}
+{"level":30,"time":"2024-08-01T23:44:32.502Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[3] containing Demografia, produtividade e o desafio do crescimento econômico no Brasil"}
+{"level":30,"time":"2024-08-01T23:44:32.502Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:32.512Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:32.513Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Se inscreva em nossa Newsletter\" in page."}
+{"level":30,"time":"2024-08-01T23:44:32.574Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:32.578Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:32.578Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Se inscreva em nossa Newsletter.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:32.884Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:32.890Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:32.890Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Coluna')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:33.039Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:33.047Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:33.047Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Coluna.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:33.179Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:33.190Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:33.191Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with //input[contains(@placeholder,'Endereço de e-mail')] in page."}
+{"level":30,"time":"2024-08-01T23:44:33.252Z","pid":5628,"hostname":"Raijonh","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:33.260Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:33.260Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Assinar\" in page."}
+{"level":30,"time":"2024-08-01T23:44:34.453Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:34.462Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:34.462Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no\" in page."}
+{"level":30,"time":"2024-08-01T23:44:34.748Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:34.752Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:34.752Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:35.309Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:35.315Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:35.316Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\closed.jpeg.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:35.407Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:35.417Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.422Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.425Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.429Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.433Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:35.434Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=f5c00b8a-524d-48f6-b032-c570ef874900"}
+{"level":30,"time":"2024-08-01T23:44:35.434Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:35.440Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.444Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.447Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:35.448Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:35.451Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:35.451Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:35.454Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=f5c00b8a-524d-48f6-b032-c570ef874900"}
+{"level":30,"time":"2024-08-01T23:44:35.454Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:35.460Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.464Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:35.467Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:35.467Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=f5c00b8a-524d-48f6-b032-c570ef874900"}
+{"level":30,"time":"2024-08-01T23:44:35.467Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:35.472Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:44:36.005Z","pid":5628,"hostname":"Raijonh","msg":"Removed page=e085d99c-f728-4f76-9ca6-a716089722f3 from context=ecd2d12f-4475-41b7-814b-d17d52055792 page stack"}
+{"level":30,"time":"2024-08-01T23:44:36.030Z","pid":5628,"hostname":"Raijonh","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:44:36.036Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:36.036Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:36.042Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:36.042Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:36.053Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:36.053Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:36.053Z","pid":5628,"hostname":"Raijonh","msg":"Trace file: C:\\frontend\\resource\\05_Evidencias\\traces\\01-08-2024_204436\\e7bf174b-0371-4cda-bc68-6097bd8cc851.zip"}
+{"level":30,"time":"2024-08-01T23:44:36.114Z","pid":5628,"hostname":"Raijonh","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
+{"level":30,"time":"2024-08-01T23:44:36.114Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:36.114Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:36.119Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:36.119Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:36.418Z","pid":5628,"hostname":"Raijonh","msg":"Video path: undefined"}
+{"level":30,"time":"2024-08-01T23:44:36.418Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:37.474Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:37.484Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:37.484Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:37.710Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:37.715Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:37.715Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Produtos')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:37.875Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:37.883Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:37.883Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Serviços')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:38.102Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.108Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.108Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Suas finanças')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:38.261Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.267Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.267Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Sua segurança')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:38.423Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.425Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.425Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Stories')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:38.557Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.563Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.563Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:38.685Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:38.690Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:38.690Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\O Agibank.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:38.858Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:38.866Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:38.867Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:39.166Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:39.173Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:39.174Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Colunas')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:39.798Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:39.801Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:39.801Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Notícias')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:39.993Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:39.999Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:39.999Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Carreira')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:40.171Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:40.182Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:40.182Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Notícias')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:40.380Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:40.392Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:40.392Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:40.688Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[1] containing Agibank assegura até R$ 40 bilhões em novo acordo de funding"}
+{"level":30,"time":"2024-08-01T23:44:40.688Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:40.693Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:40.694Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:44:40.759Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[2] containing Enchentes no RS: confira informações e medidas sobre o desastre climático e saiba como realizar doações para os atingidos"}
+{"level":30,"time":"2024-08-01T23:44:40.759Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:40.765Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:40.766Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[3] in page."}
+{"level":30,"time":"2024-08-01T23:44:40.816Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[3] containing Agibank anuncia ex-investment banker do Itaú BBA como CFO "}
+{"level":30,"time":"2024-08-01T23:44:40.816Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:40.829Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:40.829Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Se inscreva em nossa Newsletter\" in page."}
+{"level":30,"time":"2024-08-01T23:44:40.913Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:40.919Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:40.919Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Se inscreva em nossa Newsletter.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:41.323Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:41.328Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:41.328Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Notícias')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:41.498Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:41.504Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:41.504Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Notícias.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:41.633Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:41.643Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:41.644Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with //input[contains(@placeholder,'Endereço de e-mail')] in page."}
+{"level":30,"time":"2024-08-01T23:44:41.722Z","pid":5628,"hostname":"Raijonh","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:41.731Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:41.731Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Assinar\" in page."}
+{"level":30,"time":"2024-08-01T23:44:42.851Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:42.859Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:42.859Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no\" in page."}
+{"level":30,"time":"2024-08-01T23:44:43.190Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:43.193Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:43.194Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:43.849Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:43.856Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:43.856Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\closed.jpeg.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:43.955Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:43.964Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:43.972Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:43.974Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:43.980Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:43.983Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:43.983Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=ea7bf4b0-3a5d-40ee-8cb5-6687f4bb6a08"}
+{"level":30,"time":"2024-08-01T23:44:43.983Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:43.989Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:43.994Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:43.997Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:43.998Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:44.002Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:44.003Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:44.007Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=ea7bf4b0-3a5d-40ee-8cb5-6687f4bb6a08"}
+{"level":30,"time":"2024-08-01T23:44:44.007Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:44.012Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:44.019Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:44.022Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:44.022Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=ea7bf4b0-3a5d-40ee-8cb5-6687f4bb6a08"}
+{"level":30,"time":"2024-08-01T23:44:44.022Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:44.027Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:44:44.495Z","pid":5628,"hostname":"Raijonh","msg":"Removed page=9e8a812b-8dc3-4356-9dd6-6b851edb59b7 from context=90d2a890-de19-43ab-a2fa-7ff66de26b8b page stack"}
+{"level":30,"time":"2024-08-01T23:44:44.515Z","pid":5628,"hostname":"Raijonh","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:44:44.522Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:44.522Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:44.529Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:44.529Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:44.540Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:44.540Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:44.540Z","pid":5628,"hostname":"Raijonh","msg":"Trace file: C:\\frontend\\resource\\05_Evidencias\\traces\\01-08-2024_204444\\62d21b9e-d81f-459d-9a4b-06ef6ac61e11.zip"}
+{"level":30,"time":"2024-08-01T23:44:44.595Z","pid":5628,"hostname":"Raijonh","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
+{"level":30,"time":"2024-08-01T23:44:44.596Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:44.596Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:44.602Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:44.602Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:44.864Z","pid":5628,"hostname":"Raijonh","msg":"Video path: undefined"}
+{"level":30,"time":"2024-08-01T23:44:44.864Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:45.591Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:45.604Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:45.604Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:45.935Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:45.940Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:45.940Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Produtos')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:46.110Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.118Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.118Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Serviços')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:46.276Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.280Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.280Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Suas finanças')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:46.438Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.444Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.445Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Sua segurança')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:46.622Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.626Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.626Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Stories')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:46.754Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.759Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.759Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:46.894Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:46.899Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:46.899Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\O Agibank.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:47.058Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:47.068Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:47.068Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:47.306Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:47.312Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:47.312Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Colunas')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:47.904Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:47.908Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:47.908Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Notícias')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:48.103Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:48.107Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:48.107Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Carreira')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:48.284Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:48.293Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:48.293Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Carreira')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:48.499Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:48.505Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:48.505Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:48.850Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[1] containing Inscrições abertas para a edição 2024 do nosso programa de estágio. Participe!"}
+{"level":30,"time":"2024-08-01T23:44:48.850Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:48.857Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:48.857Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:44:48.920Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[2] containing Agibank está com 40 vagas abertas em Campinas "}
+{"level":30,"time":"2024-08-01T23:44:48.921Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:48.929Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:48.929Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[3] in page."}
+{"level":30,"time":"2024-08-01T23:44:49.005Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[3] containing Agibank, AWS, ilegra e Instituto Caldeira realizam programa de treinamento que visa recrutar 2 mil jovens para o setor de tecnologia "}
+{"level":30,"time":"2024-08-01T23:44:49.005Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:49.013Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:49.013Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Se inscreva em nossa Newsletter\" in page."}
+{"level":30,"time":"2024-08-01T23:44:49.075Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:49.078Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:49.078Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Se inscreva em nossa Newsletter.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:49.419Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:49.424Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:49.424Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Carreira')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:49.606Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:49.613Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:49.613Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Carreira.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:49.722Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:49.733Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:49.734Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with //input[contains(@placeholder,'Endereço de e-mail')] in page."}
+{"level":30,"time":"2024-08-01T23:44:49.782Z","pid":5628,"hostname":"Raijonh","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:49.791Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:49.792Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Assinar\" in page."}
+{"level":30,"time":"2024-08-01T23:44:50.967Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:50.976Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:50.976Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no\" in page."}
+{"level":30,"time":"2024-08-01T23:44:51.257Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:51.261Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:51.261Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:52.024Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:52.030Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:52.031Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\closed.jpeg.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:52.119Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:52.131Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.137Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.139Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.143Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.146Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:52.146Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=83b532f7-8266-4ea1-bacb-06ecb943ba61"}
+{"level":30,"time":"2024-08-01T23:44:52.146Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:52.152Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.156Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.160Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:52.160Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:52.165Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:52.167Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:52.170Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=83b532f7-8266-4ea1-bacb-06ecb943ba61"}
+{"level":30,"time":"2024-08-01T23:44:52.170Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:52.174Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.178Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.180Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:52.180Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=83b532f7-8266-4ea1-bacb-06ecb943ba61"}
+{"level":30,"time":"2024-08-01T23:44:52.180Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:52.184Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:44:52.685Z","pid":5628,"hostname":"Raijonh","msg":"Removed page=55c0be2b-178b-4ff7-9e7b-f1845aa26ddc from context=8d458042-cae8-44a2-b8e9-0e5390f2619b page stack"}
+{"level":30,"time":"2024-08-01T23:44:52.707Z","pid":5628,"hostname":"Raijonh","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:44:52.715Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.715Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.743Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.743Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.747Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.747Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:44:52.752Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:52.753Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:44:52.762Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:52.762Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:52.763Z","pid":5628,"hostname":"Raijonh","msg":"Trace file: C:\\frontend\\resource\\05_Evidencias\\traces\\01-08-2024_204452\\0a962f0a-bce0-4358-829c-08d49b06a4e5.zip"}
+{"level":30,"time":"2024-08-01T23:44:52.783Z","pid":5628,"hostname":"Raijonh","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
+{"level":30,"time":"2024-08-01T23:44:52.783Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newContext"}
+{"level":30,"time":"2024-08-01T23:44:52.783Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:44:52.790Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:52.790Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:44:53.073Z","pid":5628,"hostname":"Raijonh","msg":"Video path: undefined"}
+{"level":30,"time":"2024-08-01T23:44:53.073Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:44:53.947Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newPage"}
+{"level":30,"time":"2024-08-01T23:44:53.958Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:53.958Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:54.260Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.265Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.265Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Produtos')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:54.427Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.434Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.434Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Serviços')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:54.548Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.551Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.551Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Suas finanças')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:54.657Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.663Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.663Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Sua segurança')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:54.760Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.765Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.765Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Stories')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:54.856Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.860Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.860Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:54.965Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:54.968Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:54.968Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\O Agibank.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:55.118Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:55.124Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:55.124Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[contains(@class,'ast-icon icon-search')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:44:55.188Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:55.191Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:55.192Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with //input[contains(@type,'search')] in page."}
+{"level":30,"time":"2024-08-01T23:44:55.243Z","pid":5628,"hostname":"Raijonh","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-01T23:44:55.247Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:55.247Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[contains(@class,'ast-icon icon-search')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:44:55.459Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:55.465Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:55.465Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:55.873Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[1] containing Como Funciona a Portabilidade de Empréstimo Consignado?"}
+{"level":30,"time":"2024-08-01T23:44:55.873Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:55.879Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:55.879Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:44:55.923Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[2] containing Representante Legal pode fazer Empréstimo Consignado?"}
+{"level":30,"time":"2024-08-01T23:44:55.923Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:55.928Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:55.928Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[3] in page."}
+{"level":30,"time":"2024-08-01T23:44:55.975Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[3] containing Como desbloquear o benefício INSS para empréstimo consignado?"}
+{"level":30,"time":"2024-08-01T23:44:55.975Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:55.984Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:55.984Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Se inscreva em nossa Newsletter\" in page."}
+{"level":30,"time":"2024-08-01T23:44:56.035Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:44:56.039Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:56.040Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Se inscreva em nossa Newsletter.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:56.714Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:56.719Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:56.719Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Empréstimo Consignado')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:56.893Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:56.898Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:56.899Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Empréstimo Consignado.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:57.031Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:57.041Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:57.041Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:57.108Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[1] containing Como Funciona a Portabilidade de Empréstimo Consignado?"}
+{"level":30,"time":"2024-08-01T23:44:57.108Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:44:57.115Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:44:57.115Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=Como Funciona a Portabilidade de Empréstimo Consignado? in page."}
+{"level":30,"time":"2024-08-01T23:44:58.192Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:44:58.204Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:58.204Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with //h1[contains(.,'Como Funciona a Portabilidade de Empréstimo Consignado?')] in page."}
+{"level":30,"time":"2024-08-01T23:44:58.690Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:58.693Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:58.694Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:59.247Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:59.254Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:59.254Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Home')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:59.529Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:59.534Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:59.534Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Produtos;')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:44:59.795Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:44:59.801Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:59.801Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Home.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:44:59.939Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:59.945Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:44:59.945Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\closed.jpeg.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:45:00.088Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:00.098Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.102Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.105Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.109Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.111Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:45:00.111Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=30916c50-7fc8-46fc-bb25-dfdd95af6a79"}
+{"level":30,"time":"2024-08-01T23:45:00.111Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:45:00.114Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.116Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.117Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:00.118Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:00.120Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:00.120Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:00.122Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=30916c50-7fc8-46fc-bb25-dfdd95af6a79"}
+{"level":30,"time":"2024-08-01T23:45:00.122Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:45:00.125Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.129Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.131Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:45:00.131Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=30916c50-7fc8-46fc-bb25-dfdd95af6a79"}
+{"level":30,"time":"2024-08-01T23:45:00.131Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:45:00.136Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:45:00.409Z","pid":5628,"hostname":"Raijonh","msg":"Removed page=72b5b1c2-9044-405d-9a68-2c04aff223ad from context=aec87ade-54c6-48b2-8ef8-cde8a838a780 page stack"}
+{"level":30,"time":"2024-08-01T23:45:00.422Z","pid":5628,"hostname":"Raijonh","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:45:00.427Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.427Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:00.433Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:00.434Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:00.447Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-08-01T23:45:00.447Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:45:00.447Z","pid":5628,"hostname":"Raijonh","msg":"Trace file: C:\\frontend\\resource\\05_Evidencias\\traces\\01-08-2024_204500\\fd742904-1ff1-46a6-a3d5-c2da5d3cdca3.zip"}
+{"level":30,"time":"2024-08-01T23:45:00.500Z","pid":5628,"hostname":"Raijonh","msg":"Tracing enabled with: { screenshots: true, snapshots: true }"}
+{"level":30,"time":"2024-08-01T23:45:00.500Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newContext"}
+{"level":30,"time":"2024-08-01T23:45:00.500Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:45:00.509Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-08-01T23:45:00.510Z","pid":5628,"hostname":"Raijonh","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-01T23:45:00.836Z","pid":5628,"hostname":"Raijonh","msg":"Video path: undefined"}
+{"level":30,"time":"2024-08-01T23:45:00.836Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:45:01.811Z","pid":5628,"hostname":"Raijonh","msg":"End of node method newPage"}
+{"level":30,"time":"2024-08-01T23:45:01.819Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:01.820Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:02.040Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.044Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.044Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Produtos')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:02.186Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.191Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.191Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Serviços')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:02.316Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.319Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.319Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Suas finanças')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:02.426Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.434Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.434Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Sua segurança')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:02.563Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.568Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.568Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Stories')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:02.673Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.679Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.679Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'O Agibank')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:02.795Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:02.798Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:02.798Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\O Agibank.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:45:02.960Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:02.968Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:45:02.968Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[contains(@class,'ast-icon icon-search')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:45:03.030Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:45:03.036Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-01T23:45:03.036Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with //input[contains(@type,'search')] in page."}
+{"level":30,"time":"2024-08-01T23:45:03.086Z","pid":5628,"hostname":"Raijonh","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-01T23:45:03.089Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:45:03.089Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[contains(@class,'ast-icon icon-search')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:45:03.299Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:45:03.308Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:03.309Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:03.726Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[1] containing Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!"}
+{"level":30,"time":"2024-08-01T23:45:03.726Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:03.736Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:03.736Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[2] in page."}
+{"level":30,"time":"2024-08-01T23:45:03.787Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[2] containing O que é Empréstimo Pessoal? Como funciona e como contratar o Crédito"}
+{"level":30,"time":"2024-08-01T23:45:03.787Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:03.793Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:03.793Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[3] in page."}
+{"level":30,"time":"2024-08-01T23:45:03.860Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[3] containing Empréstimo para Aposentado: o que é, como fazer e qual a taxa de juros?"}
+{"level":30,"time":"2024-08-01T23:45:03.861Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:03.871Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:45:03.871Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=\"Se inscreva em nossa Newsletter\" in page."}
+{"level":30,"time":"2024-08-01T23:45:03.924Z","pid":5628,"hostname":"Raijonh","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-08-01T23:45:03.927Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:03.927Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Se inscreva em nossa Newsletter.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:45:04.621Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:04.628Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:04.628Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Empréstimo Consignado')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:04.812Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:04.815Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:04.815Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Empréstimo Consignado.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:45:04.949Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:04.957Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:04.957Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//a[contains(@rel,'bookmark')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:05.024Z","pid":5628,"hostname":"Raijonh","msg":"Retrieved text for element (//a[contains(@rel,'bookmark')])[1] containing Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!"}
+{"level":30,"time":"2024-08-01T23:45:05.024Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-01T23:45:05.031Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-01T23:45:05.031Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with text=Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira! in page."}
+{"level":30,"time":"2024-08-01T23:45:06.084Z","pid":5628,"hostname":"Raijonh","msg":"End of node method click"}
+{"level":30,"time":"2024-08-01T23:45:06.093Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:06.094Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with //h1[contains(.,'Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!')] in page."}
+{"level":30,"time":"2024-08-01T23:45:06.579Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:06.583Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:06.583Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:45:07.074Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:07.079Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:07.079Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Home')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:07.346Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:07.349Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:07.349Z","pid":5628,"hostname":"Raijonh","msg":"Strict mode is enabled, find Locator with (//span[@class='menu-text'][contains(.,'Produtos;')])[1] in page."}
+{"level":30,"time":"2024-08-01T23:45:07.611Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-08-01T23:45:07.615Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:07.615Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\Home.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:45:07.762Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:07.771Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:07.772Z","pid":5628,"hostname":"Raijonh","Take screenshot with options: ":{"path":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\screenshot\\closed.jpeg.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-08-01T23:45:07.938Z","pid":5628,"hostname":"Raijonh","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-08-01T23:45:07.946Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.948Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.950Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.953Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.956Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:45:07.956Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=ff49feb3-8aa9-4b2c-a49d-d2d7ecc20338"}
+{"level":30,"time":"2024-08-01T23:45:07.956Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:45:07.959Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.961Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.962Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:07.963Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:07.964Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:07.965Z","pid":5628,"hostname":"Raijonh","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-01T23:45:07.968Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=ff49feb3-8aa9-4b2c-a49d-d2d7ecc20338"}
+{"level":30,"time":"2024-08-01T23:45:07.968Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:45:07.970Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.972Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:07.974Z","pid":5628,"hostname":"Raijonh","msg":"Changed active context"}
+{"level":30,"time":"2024-08-01T23:45:07.974Z","pid":5628,"hostname":"Raijonh","msg":"Changing current active page: page=ff49feb3-8aa9-4b2c-a49d-d2d7ecc20338"}
+{"level":30,"time":"2024-08-01T23:45:07.974Z","pid":5628,"hostname":"Raijonh","msg":"Changed active page"}
+{"level":30,"time":"2024-08-01T23:45:07.976Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:45:08.304Z","pid":5628,"hostname":"Raijonh","msg":"Removed page=ae47d9e0-1236-4e35-b790-a49559ebc3e8 from context=0e8e155e-9852-4898-b613-11caf24190b2 page stack"}
+{"level":30,"time":"2024-08-01T23:45:08.320Z","pid":5628,"hostname":"Raijonh","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-08-01T23:45:08.331Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:08.331Z","pid":5628,"hostname":"Raijonh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-01T23:45:10.422Z","pid":5628,"hostname":"Raijonh","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-08-01T23:45:11.170Z","pid":5628,"hostname":"Raijonh","msg":"End of node method closeAllBrowsers"}
