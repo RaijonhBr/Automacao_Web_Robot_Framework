@@ -20,12 +20,11 @@ jobs:
     - run: pip install robotframework-browser
     - run: rfbrowser init
     - run: robot -d ./resource/04_Evidencias tests
-    - name: Upload Tests Results
     - if: always()  
     - uses: actions/upload-artifact@v4
       with:
         name: results-firefox
-        path: ./resource/04_Evidencias/output.xml
+        path: ./resource/04_Evidencias/
         if-no-files-found: ignore
         retention-days: 2
     
