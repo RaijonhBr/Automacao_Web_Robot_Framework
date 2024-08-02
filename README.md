@@ -4,11 +4,11 @@ Projeto de automação em andamento, referente ao Blog Agi.
 
 ## 🔨 Funcionalidades do projeto
 
-- `Cénario 01.01` `No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail assinado na Newsletter)`: Nesse cenario estamos validando o Titulo de Colunas, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado).
-- `Cénario 01.02` `No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)`: Nesse cenario estamos validando o Titulo de Notícias, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado).
-- `Cénario 01.03` `No menu O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter).`: Nesse cenario estamos validando o Titulo de Carreita, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)
-- `Cénario 02.01` `Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)`: Realizo a pesquisa na lupa por "Empréstimo Consignado". Em seguida clico no 1º card da pagina e vejo se exibir as informações
-- `Cénario 02.02` `Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)`: Realizo a pesquisa na lupa por "Empréstimo Pessoal". Em seguida clico no 1º card da pagina e vejo se exibir as informações
+- `01_fluxo_do_menu_O_Agibank` `Cénario 01.01` `No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail assinado na Newsletter)`: Nesse cenario estamos validando o Titulo de Colunas, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado).
+- `01_fluxo_do_menu_O_Agibank` `Cénario 01.02` `No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)`: Nesse cenario estamos validando o Titulo de Notícias, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado).
+- `01_fluxo_do_menu_O_Agibank` `Cénario 01.03` `No menu O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter).`: Nesse cenario estamos validando o Titulo de Carreita, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)
+- `02_fluxo_do_menu_Produtos` `Cénario 02.01` `Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)`: Realizo a pesquisa na lupa por "Empréstimo Consignado". Em seguida clico no 1º card da pagina e vejo se exibir as informações
+- `02_fluxo_do_menu_Produtos` `Cénario 02.02` `Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)`: Realizo a pesquisa na lupa por "Empréstimo Pessoal". Em seguida clico no 1º card da pagina e vejo se exibir as informações
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``Framework Robot``
