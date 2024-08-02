@@ -18,4 +18,4 @@ Projeto de automação em andamento, referente ao Blog Agi.
 - ``Xpath Dinâmicos``
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/RaijonhBr/Automacao_Web_Robot_Framework/tree/main/tests/Fluxo_das_fucionalidade_do_Menu).
+Você pode acessar os testes do projeto clicando [aqui](https://github.com/RaijonhBr/Automacao_Web_Robot_Framework/tree/main/tests/Fluxo_das_fucionalidade_do_Menu).
