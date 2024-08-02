@@ -1,2 +1,5 @@
 /browser
 /resource/04_Evidencias
+*.txt
+*.html
+*.xml
