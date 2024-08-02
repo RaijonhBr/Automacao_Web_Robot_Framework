@@ -5,8 +5,8 @@ Library    FakerLibrary
 
 
 *** Variables ***
-# ${Navegador}                chromium        #<<<< Suporta Edger e Chrome
-${Navegador}                firefox        #<<<< Suporta Firefox
+${Navegador}                chromium        #<<<< Suporta Edger e Chrome
+# ${Navegador}                firefox        #<<<< Suporta Firefox
 ${Headless}                 ${False} 
 ${URL}                      https://blogdoagi.com.br/                #<<<< URL do site
 
