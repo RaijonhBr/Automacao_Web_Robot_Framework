@@ -5,8 +5,8 @@ Library    FakerLibrary
 
 
 *** Variables ***
-${Navegador}                chromium        #<<<< Suporta Edger e Chrome
-# ${Navegador}                firefox        #<<<< Suporta Firefox
+# ${Navegador}                chromium        #<<<< Suporta Edger e Chrome
+${Navegador}                firefox        #<<<< Suporta Firefox
 ${Headless}                 ${False} 
 ${URL}                      https://blogdoagi.com.br/                #<<<< URL do site
 
@@ -15,7 +15,7 @@ ${URL}                      https://blogdoagi.com.br/                #<<<< URL d
 *** Keywords ***
 Abri o Blog do Agibank    # Parametros de qual navegador abri e habilitar informações do navegador
     New Browser    ${Navegador}           
-    ...            ${Headless}                # <<< Ao comentar essa linha a automação roda em exibição da tela
+    # ...            ${Headless}                # <<< Ao comentar essa linha a automação roda em exibição da tela
     # ...            args=["--start-maximized"]
     
 

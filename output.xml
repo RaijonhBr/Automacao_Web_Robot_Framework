@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.11.3 on win32)" generated="2024-08-01T20:44:25.137086" rpa="false" schemaversion="5">
-<suite id="s1" name="Fluxo das fucionalidade do Menu" source="c:\Users\cassi\Desktop\Automações\Git_Hub\Web\Automacao_Web_Robot_Framework\tests\Fluxo_das_fucionalidade_do_Menu">
-<suite id="s1-s1" name="01 fluxo do menu O Agibank" source="c:\Users\cassi\Desktop\Automações\Git_Hub\Web\Automacao_Web_Robot_Framework\tests\Fluxo_das_fucionalidade_do_Menu\01_fluxo_do_menu_O_Agibank.robot">
-<test id="s1-s1-t1" name="Cénario 01.01: No menu O Agibank - Escolhendo a opção &quot;Colunas&quot; (com e-mail assinado na Newsletter)" line="9">
+<robot generator="Robot 7.0.1 (Python 3.11.3 on win32)" generated="2024-08-01T21:44:45.399221" rpa="false" schemaversion="5">
+<suite id="s1" name="01 fluxo do menu O Agibank" source="c:\Users\cassi\Desktop\Automações\Git_Hub\Web\Automacao_Web_Robot_Framework\tests\Fluxo_das_fucionalidade_do_Menu\01_fluxo_do_menu_O_Agibank.robot">
+<test id="s1-t1" name="Cénario 01.01: No menu O Agibank - Escolhendo a opção &quot;Colunas&quot; (com e-mail assinado na Newsletter)" line="9">
 <kw name="Abri o Blog do Agibank" owner="Conexao_Web" type="SETUP">
 <kw name="New Browser" owner="Browser">
-<msg time="2024-08-01T20:44:26.193557" level="INFO">{"browser": "firefox", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\cassi\\Desktop\\Automa\u00e7\u00f5es\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\traces\\45cad8d3-e4c6-4f5d-907b-8a4e41f2f8a2"}</msg>
-<msg time="2024-08-01T20:44:26.725550" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\traces\\45cad8d3-e4c6-4f5d-907b-8a4e41f2f8a2"}</msg>
+<msg time="2024-08-01T21:44:46.541274" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\cassi\\Desktop\\Automa\u00e7\u00f5es\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\traces\\483e6702-4e72-4e42-973d-50c538c9ca90"}</msg>
+<msg time="2024-08-01T21:44:46.771971" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\cassi\\Desktop\\Automações\\Git_Hub\\Web\\Automacao_Web_Robot_Framework\\browser\\traces\\483e6702-4e72-4e42-973d-50c538c9ca90"}</msg>
 <arg>${Navegador}</arg>
 <arg>${Headless}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:26.193557" elapsed="0.531993"/>
+<status status="PASS" start="2024-08-01T21:44:46.541274" elapsed="0.232205"/>
 </kw>
 <kw name="Uuid 4" owner="FakerLibrary">
-<msg time="2024-08-01T20:44:26.726556" level="INFO">${TRACE_NAME} = 0ac6d6c4-c6f9-406e-b66f-6280d527b15b</msg>
+<msg time="2024-08-01T21:44:46.774497" level="INFO">${TRACE_NAME} = 1c6fd6ce-eebf-4c0e-b5c8-e04aa743a5f7</msg>
 <var>${TRACE_NAME}</var>
 <doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.</doc>
-<status status="PASS" start="2024-08-01T20:44:26.725550" elapsed="0.001006"/>
+<status status="PASS" start="2024-08-01T21:44:46.773479" elapsed="0.001018"/>
 </kw>
 <kw name="Get Current Date" owner="DateTime">
-<msg time="2024-08-01T20:44:26.726556" level="INFO">${NOW} = 01-08-2024_204426</msg>
+<msg time="2024-08-01T21:44:46.775488" level="INFO">${NOW} = 01-08-2024_214446</msg>
 <var>${NOW}</var>
 <arg>result_format=%d-%m-%Y_%H%M%S</arg>
 <doc>Returns current local or UTC time with an optional increment.</doc>
-<status status="PASS" start="2024-08-01T20:44:26.726556" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:46.775488" elapsed="0.001009"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2024-08-01T20:44:26.728556" level="INFO">{
+<msg time="2024-08-01T21:44:46.779498" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -37,41 +36,41 @@
   "offline": false,
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
-  "tracing": "/frontend/resource/05_Evidencias/traces/01-08-2024_204426/0ac6d6c4-c6f9-406e-b66f-6280d527b15b.zip",
+  "tracing": "/frontend/resource/05_Evidencias/traces/01-08-2024_214446/1c6fd6ce-eebf-4c0e-b5c8-e04aa743a5f7.zip",
   "viewport": {
-    "height": 1440,
-    "width": 2560
+    "width": 2560,
+    "height": 1440
   }
 }</msg>
-<msg time="2024-08-01T20:44:26.763136" level="INFO">Successfully created context and trace file will be saved to: C:\frontend\resource\05_Evidencias\traces\01-08-2024_204426\0ac6d6c4-c6f9-406e-b66f-6280d527b15b.zip</msg>
-<msg time="2024-08-01T20:44:26.764643" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': True, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'tracing': '/frontend/resource/05_Evidencias/traces/01-08-2024_204426/0ac6d6c4-c6f9-406e-b66f-6280d527b15b.zip', 'viewport': {'height': 1440, 'width': 2560}, 'trace': {'screenshots': True, 'snapshots': True}}</msg>
+<msg time="2024-08-01T21:44:46.805714" level="INFO">Successfully created context and trace file will be saved to: C:\frontend\resource\05_Evidencias\traces\01-08-2024_214446\1c6fd6ce-eebf-4c0e-b5c8-e04aa743a5f7.zip</msg>
+<msg time="2024-08-01T21:44:46.806707" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': True, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'tracing': '/frontend/resource/05_Evidencias/traces/01-08-2024_214446/1c6fd6ce-eebf-4c0e-b5c8-e04aa743a5f7.zip', 'viewport': {'width': 2560, 'height': 1440}, 'trace': {'screenshots': True, 'snapshots': True}}</msg>
 <arg>viewport={'width':2560, 'height':1440}</arg>
 <arg>ignoreHTTPSErrors=true</arg>
 <arg>tracing=/frontend/resource/05_Evidencias/traces/${NOW}/${TRACE_NAME}.zip</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:26.726556" elapsed="0.038087"/>
+<status status="PASS" start="2024-08-01T21:44:46.776497" elapsed="0.030697"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2024-08-01T20:44:29.721026" level="INFO">Successfully initialized new page object and opened url: https://blogdoagi.com.br/</msg>
+<msg time="2024-08-01T21:44:48.391000" level="INFO">Successfully initialized new page object and opened url: https://blogdoagi.com.br/</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2024-08-01T20:44:26.764643" elapsed="2.957387"/>
+<status status="PASS" start="2024-08-01T21:44:46.807705" elapsed="1.583295"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:26.192557" elapsed="3.529473"/>
+<status status="PASS" start="2024-08-01T21:44:46.539663" elapsed="1.851337"/>
 </kw>
 <kw name="Given esteja na pagina inicial do Blog Agibank" owner="Steps_01_fluxo_do_menu_O_Agibank">
 <kw name="Validação da tela (2 - sem imagem) - Contendo: O Agibank; Produtos" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:29.724610" elapsed="0.001016"/>
+<status status="PASS" start="2024-08-01T21:44:48.393580" elapsed="0.001966"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:30.028829" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:48.576679" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -79,10 +78,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:29.725626" elapsed="0.304196"/>
+<status status="PASS" start="2024-08-01T21:44:48.395546" elapsed="0.183134"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:30.150432" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:48.697289" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -90,23 +89,23 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.029822" elapsed="0.120610"/>
+<status status="PASS" start="2024-08-01T21:44:48.578680" elapsed="0.118609"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação concluída!\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.150432" elapsed="0.001001"/>
+<status status="PASS" start="2024-08-01T21:44:48.697289" elapsed="0.001002"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:29.723102" elapsed="0.428331"/>
+<status status="PASS" start="2024-08-01T21:44:48.392008" elapsed="0.307282"/>
 </kw>
 <kw name="Validação da tela (2 - sem imagem) - Contendo: Serviços; Suas finanças" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.151972" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:48.700295" elapsed="0.000000"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:30.262857" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:48.820290" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -114,10 +113,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.152978" elapsed="0.109879"/>
+<status status="PASS" start="2024-08-01T21:44:48.701290" elapsed="0.119000"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:30.376188" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:48.932445" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -125,23 +124,23 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.263881" elapsed="0.113314"/>
+<status status="PASS" start="2024-08-01T21:44:48.821289" elapsed="0.111156"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação concluída!\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.377195" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:48.933441" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:30.151972" elapsed="0.225223"/>
+<status status="PASS" start="2024-08-01T21:44:48.699290" elapsed="0.234151"/>
 </kw>
 <kw name="Validação da tela (2 - sem imagem) - Contendo: Sua segurança; Stories" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.378194" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:48.934804" elapsed="0.000000"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:30.506171" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:49.064729" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -149,10 +148,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.379195" elapsed="0.126976"/>
+<status status="PASS" start="2024-08-01T21:44:48.935807" elapsed="0.128922"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:30.621881" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:49.170632" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -160,23 +159,23 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.506171" elapsed="0.115710"/>
+<status status="PASS" start="2024-08-01T21:44:49.064729" elapsed="0.105903"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação concluída!\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.621881" elapsed="0.000879"/>
+<status status="PASS" start="2024-08-01T21:44:49.171633" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:30.378194" elapsed="0.244566"/>
+<status status="PASS" start="2024-08-01T21:44:48.933441" elapsed="0.238192"/>
 </kw>
 <kw name="Validação da tela (1 - com imagem) - Contendo: O Agibank;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela - Contendo: ${Variavel_1};</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.622760" elapsed="0.001000"/>
+<status status="PASS" start="2024-08-01T21:44:49.172633" elapsed="0.000000"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:30.740934" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:49.287198" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -184,49 +183,49 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.623760" elapsed="0.117174"/>
+<status status="PASS" start="2024-08-01T21:44:49.173635" elapsed="0.113772"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:30.898870" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/O%20Agibank.png" target="_blank"&gt;&lt;img src="browser/screenshot/O%20Agibank.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-08-01T21:44:49.545703" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/O%20Agibank.png" target="_blank"&gt;&lt;img src="browser/screenshot/O%20Agibank.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <arg>${Variavel_1}</arg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.741910" elapsed="0.157939"/>
+<status status="PASS" start="2024-08-01T21:44:49.287407" elapsed="0.258296"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação concluída!\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.899849" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:49.545703" elapsed="0.001034"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:30.622760" elapsed="0.278087"/>
+<status status="PASS" start="2024-08-01T21:44:49.172633" elapsed="0.374104"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:29.723102" elapsed="1.177745"/>
+<status status="PASS" start="2024-08-01T21:44:48.392008" elapsed="1.155699"/>
 </kw>
 <kw name="When escolho no Menu &quot;O Agibank&quot; escolhendo a opção &quot;Colunas&quot;" owner="Steps_01_fluxo_do_menu_O_Agibank">
 <kw name="Clico na opção &quot;O Agibank&quot;" owner="Metodos_globais" source_name="Clico na opção &quot;${Variavel_1}&quot;">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Clico na opção "${Variavel_1}"\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.901846" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:49.548703" elapsed="0.000999"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:30.902848" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'O Agibank')])[1]'.</msg>
+<msg time="2024-08-01T21:44:49.550715" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'O Agibank')])[1]'.</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:30.902848" elapsed="0.198733"/>
+<status status="PASS" start="2024-08-01T21:44:49.549702" elapsed="0.261905"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:30.901846" elapsed="0.200735"/>
+<status status="PASS" start="2024-08-01T21:44:49.548703" elapsed="0.262904"/>
 </kw>
 <kw name="Validação da tela (3 - sem imagem) - Contendo: Colunas; Notícias; Carreira" owner="Metodos_globais" source_name="Validação da tela (3 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}; ${Variavel_3}">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}; ${Variavel_3}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:31.103582" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:49.814995" elapsed="0.001008"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:31.551985" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:50.150989" level="INFO">States are: ['detached']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -234,10 +233,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:31.104580" elapsed="0.447405"/>
+<status status="PASS" start="2024-08-01T21:44:49.817004" elapsed="0.333985"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:31.725042" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:50.379208" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -245,10 +244,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:31.551985" elapsed="0.173563"/>
+<status status="PASS" start="2024-08-01T21:44:50.151988" elapsed="0.228224"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:31.845481" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:50.611344" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_3}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -256,141 +255,141 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:31.725548" elapsed="0.120940"/>
+<status status="PASS" start="2024-08-01T21:44:50.381209" elapsed="0.230135"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação concluída!\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:31.846488" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:50.611344" elapsed="0.000994"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:31.102581" elapsed="0.744906"/>
+<status status="PASS" start="2024-08-01T21:44:49.812587" elapsed="0.800754"/>
 </kw>
 <kw name="Clico na opção &quot;Colunas&quot;" owner="Metodos_globais" source_name="Clico na opção &quot;${Variavel_1}&quot;">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Clico na opção "${Variavel_1}"\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:31.847487" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:50.613859" elapsed="0.002008"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:31.848488" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'Colunas')])[1]'.</msg>
+<msg time="2024-08-01T21:44:50.617880" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'Colunas')])[1]'.</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:31.848488" elapsed="0.176832"/>
+<status status="PASS" start="2024-08-01T21:44:50.615867" elapsed="3.690794"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:31.847487" elapsed="0.177833"/>
+<status status="PASS" start="2024-08-01T21:44:50.613859" elapsed="3.692802"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:30.900847" elapsed="1.124473"/>
+<status status="PASS" start="2024-08-01T21:44:49.548703" elapsed="4.757958"/>
 </kw>
 <kw name="And sistema exibe as informações da pagina &quot;Colunas&quot;" owner="Steps_01_fluxo_do_menu_O_Agibank">
 <kw name="validação da exibição do 1º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
 <kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:32.383524" level="INFO">Text: 'A tragédia climática no RS. Saber lidar com os extremos do clima e a água já era o maior problema econômico e social do RS. O que será feito agora?'</msg>
-<msg time="2024-08-01T20:44:32.383524" level="INFO">${Validacao_card} = A tragédia climática no RS. Saber lidar com os extremos do clima e a água já era o maior problema econômico e social do RS. O que será feito agora?</msg>
+<msg time="2024-08-01T21:44:54.628861" level="INFO">Text: 'A tragédia climática no RS. Saber lidar com os extremos do clima e a água já era o maior problema econômico e social do RS. O que será feito agora?'</msg>
+<msg time="2024-08-01T21:44:54.628861" level="INFO">${Validacao_card} = A tragédia climática no RS. Saber lidar com os extremos do clima e a água já era o maior problema econômico e social do RS. O que será feito agora?</msg>
 <var>${Validacao_card}</var>
 <arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.027351" elapsed="0.357679"/>
+<status status="PASS" start="2024-08-01T21:44:54.309166" elapsed="0.319695"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:32.385030" level="INFO">Titulo do 1º: A tragédia climática no RS. Saber lidar com os extremos do clima e a água já era o maior problema econômico e social do RS. O que será feito agora?</msg>
+<msg time="2024-08-01T21:44:54.628861" level="INFO">Titulo do 1º: A tragédia climática no RS. Saber lidar com os extremos do clima e a água já era o maior problema econômico e social do RS. O que será feito agora?</msg>
 <arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.385030" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:54.628861" elapsed="0.001004"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.385030" elapsed="0.001007"/>
+<status status="PASS" start="2024-08-01T21:44:54.629865" elapsed="0.000894"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:32.027351" elapsed="0.358686"/>
+<status status="PASS" start="2024-08-01T21:44:54.309166" elapsed="0.321593"/>
 </kw>
 <kw name="validação da exibição do 2º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
 <kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:32.451322" level="INFO">Text: 'Melhorar a qualidade da educação para haver mais oportunidades, produtividade e crescimento'</msg>
-<msg time="2024-08-01T20:44:32.452321" level="INFO">${Validacao_card} = Melhorar a qualidade da educação para haver mais oportunidades, produtividade e crescimento</msg>
+<msg time="2024-08-01T21:44:54.691708" level="INFO">Text: 'Melhorar a qualidade da educação para haver mais oportunidades, produtividade e crescimento'</msg>
+<msg time="2024-08-01T21:44:54.691708" level="INFO">${Validacao_card} = Melhorar a qualidade da educação para haver mais oportunidades, produtividade e crescimento</msg>
 <var>${Validacao_card}</var>
 <arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.386037" elapsed="0.066284"/>
+<status status="PASS" start="2024-08-01T21:44:54.631768" elapsed="0.059940"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:32.453321" level="INFO">Titulo do 2º: Melhorar a qualidade da educação para haver mais oportunidades, produtividade e crescimento</msg>
+<msg time="2024-08-01T21:44:54.692713" level="INFO">Titulo do 2º: Melhorar a qualidade da educação para haver mais oportunidades, produtividade e crescimento</msg>
 <arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.452321" elapsed="0.001000"/>
+<status status="PASS" start="2024-08-01T21:44:54.691708" elapsed="0.001005"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.453321" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:54.692713" elapsed="0.001498"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:32.386037" elapsed="0.067284"/>
+<status status="PASS" start="2024-08-01T21:44:54.630759" elapsed="0.063452"/>
 </kw>
 <kw name="validação da exibição do 3º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
 <kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:32.504636" level="INFO">Text: 'Demografia, produtividade e o desafio do crescimento econômico no Brasil'</msg>
-<msg time="2024-08-01T20:44:32.505144" level="INFO">${Validacao_card} = Demografia, produtividade e o desafio do crescimento econômico no Brasil</msg>
+<msg time="2024-08-01T21:44:54.751839" level="INFO">Text: 'Demografia, produtividade e o desafio do crescimento econômico no Brasil'</msg>
+<msg time="2024-08-01T21:44:54.751839" level="INFO">${Validacao_card} = Demografia, produtividade e o desafio do crescimento econômico no Brasil</msg>
 <var>${Validacao_card}</var>
 <arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.454828" elapsed="0.050316"/>
+<status status="PASS" start="2024-08-01T21:44:54.695972" elapsed="0.057383"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:32.505144" level="INFO">Titulo do 3º: Demografia, produtividade e o desafio do crescimento econômico no Brasil</msg>
+<msg time="2024-08-01T21:44:54.753355" level="INFO">Titulo do 3º: Demografia, produtividade e o desafio do crescimento econômico no Brasil</msg>
 <arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.505144" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:54.753355" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.506151" elapsed="0.000000"/>
+<status status="PASS" start="2024-08-01T21:44:54.754368" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:32.454828" elapsed="0.051323"/>
+<status status="PASS" start="2024-08-01T21:44:54.695220" elapsed="0.059148"/>
 </kw>
 <kw name="Validação da tela com texto &quot;Se inscreva em nossa Newsletter&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela com texto "${txt}"\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.507155" elapsed="0.001002"/>
+<status status="PASS" start="2024-08-01T21:44:54.755366" elapsed="0.001013"/>
 </kw>
 <kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:44:32.575847" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2024-08-01T21:44:54.807643" level="INFO">JavaScript executed successfully.</msg>
 <arg>text="${txt}"</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.508157" elapsed="0.068687"/>
+<status status="PASS" start="2024-08-01T21:44:54.756379" elapsed="0.051264"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:32.885743" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" target="_blank"&gt;&lt;img src="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-08-01T21:44:54.962416" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" target="_blank"&gt;&lt;img src="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <arg>${txt}</arg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.576844" elapsed="0.308899"/>
+<status status="PASS" start="2024-08-01T21:44:54.807643" elapsed="0.154773"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:32.506151" elapsed="0.379592"/>
+<status status="PASS" start="2024-08-01T21:44:54.755366" elapsed="0.208034"/>
 </kw>
 <kw name="Validação da tela (1 - com imagem) - Contendo: Coluna;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela - Contendo: ${Variavel_1};</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.886741" elapsed="0.001005"/>
+<status status="PASS" start="2024-08-01T21:44:54.963913" elapsed="0.001023"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:33.041968" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
+<msg time="2024-08-01T21:44:55.094746" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
 <arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
 <arg>validate</arg>
 <arg>value</arg>
@@ -398,2137 +397,120 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:32.887746" elapsed="0.155221"/>
+<status status="PASS" start="2024-08-01T21:44:54.964936" elapsed="0.129810"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:33.180657" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Coluna.png" target="_blank"&gt;&lt;img src="browser/screenshot/Coluna.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-08-01T21:44:55.266707" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Coluna.png" target="_blank"&gt;&lt;img src="browser/screenshot/Coluna.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <arg>${Variavel_1}</arg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:33.042967" elapsed="0.138692"/>
+<status status="PASS" start="2024-08-01T21:44:55.095268" elapsed="0.172440"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação concluída!\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:33.182664" elapsed="0.000989"/>
+<status status="PASS" start="2024-08-01T21:44:55.267708" elapsed="0.000996"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:32.886741" elapsed="0.297909"/>
+<status status="PASS" start="2024-08-01T21:44:54.963913" elapsed="0.304791"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:32.026826" elapsed="1.157824"/>
+<status status="PASS" start="2024-08-01T21:44:54.307659" elapsed="0.961045"/>
 </kw>
 <kw name="And informo o e-mail na Newsletter" owner="Steps_01_fluxo_do_menu_O_Agibank">
 <kw name="Informo no campo &quot;Endereço de e-mail&quot;: &quot;${Email}&quot;" owner="Metodos_globais" source_name="Informo no campo &quot;${Campo}&quot;: &quot;${Informacao}&quot;">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Informo no campo "${Campo}": "${Informacao}"\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:33.186078" elapsed="0.001013"/>
+<status status="PASS" start="2024-08-01T21:44:55.270705" elapsed="0.001001"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2024-08-01T20:44:33.189092" level="INFO">Fills the text 'cassioraijonh_2@hotmail.com' in the given field.</msg>
+<msg time="2024-08-01T21:44:55.272705" level="INFO">Fills the text 'cassioraijonh_2@hotmail.com' in the given field.</msg>
 <arg>//input[contains(@placeholder,'${Campo}')]</arg>
 <arg>${Informacao}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:33.188099" elapsed="0.065348"/>
+<status status="PASS" start="2024-08-01T21:44:55.271706" elapsed="0.044243"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:33.186078" elapsed="0.068888"/>
+<status status="PASS" start="2024-08-01T21:44:55.269706" elapsed="0.047237"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:33.184650" elapsed="0.070316"/>
+<status status="PASS" start="2024-08-01T21:44:55.269706" elapsed="0.047237"/>
 </kw>
 <kw name="And seleciono no botão Assinar" owner="Steps_01_fluxo_do_menu_O_Agibank">
 <kw name="Clico no botão &quot;Assinar&quot;" owner="Metodos_globais" source_name="Clico no botão &quot;${Botao}&quot;">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Clico no botão "${Botao}"\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:33.255971" elapsed="0.001005"/>
+<status status="PASS" start="2024-08-01T21:44:55.320943" elapsed="0.001002"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:33.258977" level="INFO">Clicks the element 'text="Assinar"'.</msg>
+<msg time="2024-08-01T21:44:55.324490" level="INFO">Clicks the element 'text="Assinar"'.</msg>
 <arg>text="${Botao}"</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:33.257980" elapsed="1.197969"/>
+<status status="PASS" start="2024-08-01T21:44:55.323520" elapsed="1.092006"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:33.255971" elapsed="1.200978"/>
+<status status="PASS" start="2024-08-01T21:44:55.319942" elapsed="1.095584"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:33.255971" elapsed="1.200978"/>
+<status status="PASS" start="2024-08-01T21:44:55.318942" elapsed="1.096584"/>
 </kw>
 <kw name="Then sistema exibe mensagem que e-mail ja esta assinado" owner="Steps_01_fluxo_do_menu_O_Agibank">
 <kw name="Validação da tela com texto &quot;Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Validação da tela com texto "${txt}"\n</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:34.457950" elapsed="0.001000"/>
+<status status="PASS" start="2024-08-01T21:44:56.417520" elapsed="0.000000"/>
 </kw>
 <kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:44:34.749494" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2024-08-01T21:44:56.523534" level="INFO">JavaScript executed successfully.</msg>
 <arg>text="${txt}"</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:44:34.459950" elapsed="0.290543"/>
+<status status="PASS" start="2024-08-01T21:44:56.418523" elapsed="0.106018"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:35.311880" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" target="_blank"&gt;&lt;img src="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-08-01T21:44:56.759660" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" target="_blank"&gt;&lt;img src="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <arg>${txt}</arg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:34.750493" elapsed="0.562379"/>
+<status status="PASS" start="2024-08-01T21:44:56.524541" elapsed="0.235119"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:34.457950" elapsed="0.854922"/>
+<status status="PASS" start="2024-08-01T21:44:56.416523" elapsed="0.343137"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:34.456949" elapsed="0.855923"/>
+<status status="PASS" start="2024-08-01T21:44:56.416523" elapsed="0.344137"/>
 </kw>
 <kw name="Fechar navegador" owner="Conexao_Web" type="TEARDOWN">
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:35.409273" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/closed.jpeg.png" target="_blank"&gt;&lt;img src="browser/screenshot/closed.jpeg.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-08-01T21:44:56.949648" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/closed.jpeg.png" target="_blank"&gt;&lt;img src="browser/screenshot/closed.jpeg.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <arg>closed.jpeg</arg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:35.314900" elapsed="0.094373"/>
+<status status="PASS" start="2024-08-01T21:44:56.762663" elapsed="0.188002"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Fechar navegador</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:35.410298" elapsed="0.000990"/>
+<status status="PASS" start="2024-08-01T21:44:56.951180" elapsed="0.001026"/>
 </kw>
-<status status="PASS" start="2024-08-01T20:44:35.313871" elapsed="0.098399"/>
+<status status="PASS" start="2024-08-01T21:44:56.761664" elapsed="0.190542"/>
 </kw>
 <doc>Nesse cenario estamos validando o Titulo de Colunas, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)</doc>
 <tag>Cénario 01.01: No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail assinado na Newsletter)</tag>
-<status status="PASS" start="2024-08-01T20:44:26.189557" elapsed="9.222713"/>
+<status status="PASS" start="2024-08-01T21:44:46.536692" elapsed="10.415514"/>
 </test>
-<test id="s1-s1-t2" name="Cénario 01.02: No menu O Agibank - Escolhendo a opção &quot;Noticias&quot; (com e-mail assinado na Newsletter)" line="20">
-<kw name="Abri o Blog do Agibank" owner="Conexao_Web" type="SETUP">
-<kw name="New Browser" owner="Browser">
-<msg time="2024-08-01T20:44:36.040947" level="INFO">Switching browser to browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:44:36.044953" level="INFO">Successfully changed active browser: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:44:36.044953" level="INFO">Reusing existing browser with id: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<arg>${Navegador}</arg>
-<arg>${Headless}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:36.039948" elapsed="0.005005"/>
-</kw>
-<kw name="Uuid 4" owner="FakerLibrary">
-<msg time="2024-08-01T20:44:36.047120" level="INFO">${TRACE_NAME} = e7bf174b-0371-4cda-bc68-6097bd8cc851</msg>
-<var>${TRACE_NAME}</var>
-<doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.</doc>
-<status status="PASS" start="2024-08-01T20:44:36.046110" elapsed="0.001010"/>
-</kw>
-<kw name="Get Current Date" owner="DateTime">
-<msg time="2024-08-01T20:44:36.048110" level="INFO">${NOW} = 01-08-2024_204436</msg>
-<var>${NOW}</var>
-<arg>result_format=%d-%m-%Y_%H%M%S</arg>
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<status status="PASS" start="2024-08-01T20:44:36.047120" elapsed="0.000990"/>
-</kw>
-<kw name="New Context" owner="Browser">
-<msg time="2024-08-01T20:44:36.051108" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "ignoreHTTPSErrors": true,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "tracing": "/frontend/resource/05_Evidencias/traces/01-08-2024_204436/e7bf174b-0371-4cda-bc68-6097bd8cc851.zip",
-  "viewport": {
-    "height": 1440,
-    "width": 2560
-  }
-}</msg>
-<msg time="2024-08-01T20:44:36.117319" level="INFO">Successfully created context and trace file will be saved to: C:\frontend\resource\05_Evidencias\traces\01-08-2024_204436\e7bf174b-0371-4cda-bc68-6097bd8cc851.zip</msg>
-<msg time="2024-08-01T20:44:36.117319" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': True, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'tracing': '/frontend/resource/05_Evidencias/traces/01-08-2024_204436/e7bf174b-0371-4cda-bc68-6097bd8cc851.zip', 'viewport': {'height': 1440, 'width': 2560}, 'trace': {'screenshots': True, 'snapshots': True}}</msg>
-<arg>viewport={'width':2560, 'height':1440}</arg>
-<arg>ignoreHTTPSErrors=true</arg>
-<arg>tracing=/frontend/resource/05_Evidencias/traces/${NOW}/${TRACE_NAME}.zip</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:36.049102" elapsed="0.069212"/>
-</kw>
-<kw name="New Page" owner="Browser">
-<msg time="2024-08-01T20:44:37.476784" level="INFO">Successfully initialized new page object and opened url: https://blogdoagi.com.br/</msg>
-<arg>${URL}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2024-08-01T20:44:36.118314" elapsed="1.358470"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:36.038952" elapsed="1.437832"/>
-</kw>
-<kw name="Given esteja na pagina inicial do Blog Agibank" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Validação da tela (2 - sem imagem) - Contendo: O Agibank; Produtos" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:37.479783" elapsed="0.000996"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:37.712667" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:37.480779" elapsed="0.231888"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:37.877726" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:37.713670" elapsed="0.164056"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:37.877726" elapsed="0.000990"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:37.479783" elapsed="0.398933"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Serviços; Suas finanças" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:37.879718" elapsed="0.001010"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:38.103410" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:37.880728" elapsed="0.224366"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:38.262106" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.105094" elapsed="0.157012"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.263103" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:37.878716" elapsed="0.384387"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Sua segurança; Stories" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.264609" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:38.423904" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.265621" elapsed="0.158283"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:38.558776" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.424904" elapsed="0.133872"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.559774" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:38.263103" elapsed="0.297671"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: O Agibank;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.560774" elapsed="0.001002"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:38.686787" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.561776" elapsed="0.126009"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:38.859101" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/O%20Agibank.png" target="_blank"&gt;&lt;img src="browser/screenshot/O%20Agibank.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.687785" elapsed="0.172314"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.860099" elapsed="0.001002"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:38.560774" elapsed="0.300327"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:37.478783" elapsed="1.383322"/>
-</kw>
-<kw name="When escolho no Menu &quot;O Agibank&quot; escolhendo a opção &quot;Notícias&quot;" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Clico na opção &quot;O Agibank&quot;" owner="Metodos_globais" source_name="Clico na opção &quot;${Variavel_1}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico na opção "${Variavel_1}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.863100" elapsed="0.000000"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:38.864667" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'O Agibank')])[1]'.</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:38.864667" elapsed="0.304021"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:38.863100" elapsed="0.305588"/>
-</kw>
-<kw name="Validação da tela (3 - sem imagem) - Contendo: Colunas; Notícias; Carreira" owner="Metodos_globais" source_name="Validação da tela (3 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}; ${Variavel_3}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}; ${Variavel_3}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:39.170688" elapsed="0.001003"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:39.799748" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:39.171691" elapsed="0.628057"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:39.996091" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:39.799748" elapsed="0.196343"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:40.173023" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_3}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:39.997088" elapsed="0.175935"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.174028" elapsed="0.000995"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:39.169688" elapsed="1.005335"/>
-</kw>
-<kw name="Clico na opção &quot;Notícias&quot;" owner="Metodos_globais" source_name="Clico na opção &quot;${Variavel_1}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico na opção "${Variavel_1}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.176120" elapsed="0.001008"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:40.178120" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'Notícias')])[1]'.</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.177128" elapsed="0.210035"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:40.175023" elapsed="0.213139"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:38.862105" elapsed="1.526057"/>
-</kw>
-<kw name="And sistema exibe a as informações da pagina &quot;Notícias&quot;" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="validação da exibição do 1º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:40.690010" level="INFO">Text: 'Agibank assegura até R$ 40 bilhões em novo acordo de funding'</msg>
-<msg time="2024-08-01T20:44:40.690010" level="INFO">${Validacao_card} = Agibank assegura até R$ 40 bilhões em novo acordo de funding</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.390164" elapsed="0.299846"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:40.691010" level="INFO">Titulo do 1º: Agibank assegura até R$ 40 bilhões em novo acordo de funding</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.690010" elapsed="0.001000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.691010" elapsed="0.001001"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:40.389162" elapsed="0.302849"/>
-</kw>
-<kw name="validação da exibição do 2º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:40.760385" level="INFO">Text: 'Enchentes no RS: confira informações e medidas sobre o desastre climático e saiba como realizar doações para os atingidos'</msg>
-<msg time="2024-08-01T20:44:40.760986" level="INFO">${Validacao_card} = Enchentes no RS: confira informações e medidas sobre o desastre climático e saiba como realizar doações para os atingidos</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.692011" elapsed="0.068975"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:40.760986" level="INFO">Titulo do 2º: Enchentes no RS: confira informações e medidas sobre o desastre climático e saiba como realizar doações para os atingidos</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.760986" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.760986" elapsed="0.001511"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:40.692011" elapsed="0.070486"/>
-</kw>
-<kw name="validação da exibição do 3º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:40.817824" level="INFO">Text: 'Agibank anuncia ex-investment banker\xa0do Itaú BBA como CFO\xa0'</msg>
-<msg time="2024-08-01T20:44:40.818810" level="INFO">${Validacao_card} = Agibank anuncia ex-investment banker do Itaú BBA como CFO </msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.764047" elapsed="0.055769"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:40.821810" level="INFO">Titulo do 3º: Agibank anuncia ex-investment banker do Itaú BBA como CFO </msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.820811" elapsed="0.000999"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.822813" elapsed="0.000999"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:40.763037" elapsed="0.060775"/>
-</kw>
-<kw name="Validação da tela com texto &quot;Se inscreva em nossa Newsletter&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela com texto "${txt}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.825376" elapsed="0.000000"/>
-</kw>
-<kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:44:40.916191" level="INFO">JavaScript executed successfully.</msg>
-<arg>text="${txt}"</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.826324" elapsed="0.090879"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:41.324874" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" target="_blank"&gt;&lt;img src="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${txt}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:40.917203" elapsed="0.407671"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:40.824810" elapsed="0.501072"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: Notícias;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.325882" elapsed="0.001007"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:41.500243" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.326889" elapsed="0.174354"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:41.634579" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Not%C3%ADcias.png" target="_blank"&gt;&lt;img src="browser/screenshot/Not%C3%ADcias.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.501243" elapsed="0.133912"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.635155" elapsed="0.000938"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:41.325882" elapsed="0.310211"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:40.389162" elapsed="1.246931"/>
-</kw>
-<kw name="And informo o e-mail na Newsletter" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Informo no campo &quot;Endereço de e-mail&quot;: &quot;${Email}&quot;" owner="Metodos_globais" source_name="Informo no campo &quot;${Campo}&quot;: &quot;${Informacao}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Informo no campo "${Campo}": "${Informacao}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.638099" elapsed="0.000997"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2024-08-01T20:44:41.640095" level="INFO">Fills the text 'cassioraijonh_2@hotmail.com' in the given field.</msg>
-<arg>//input[contains(@placeholder,'${Campo}')]</arg>
-<arg>${Informacao}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.639096" elapsed="0.084068"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:41.637096" elapsed="0.087577"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:41.637096" elapsed="0.087577"/>
-</kw>
-<kw name="And seleciono no botão Assinar" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Clico no botão &quot;Assinar&quot;" owner="Metodos_globais" source_name="Clico no botão &quot;${Botao}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico no botão "${Botao}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.726693" elapsed="0.001017"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:41.728705" level="INFO">Clicks the element 'text="Assinar"'.</msg>
-<arg>text="${Botao}"</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:41.728705" elapsed="1.124306"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:41.725685" elapsed="1.128321"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:41.725685" elapsed="1.128321"/>
-</kw>
-<kw name="Then sistema exibe mensagem que e-mail ja esta assinado" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Validação da tela com texto &quot;Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela com texto "${txt}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:42.856103" elapsed="0.001005"/>
-</kw>
-<kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:44:43.191030" level="INFO">JavaScript executed successfully.</msg>
-<arg>text="${txt}"</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:44:42.857108" elapsed="0.334920"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:43.850722" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" target="_blank"&gt;&lt;img src="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${txt}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:43.192028" elapsed="0.658694"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:42.855014" elapsed="0.995708"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:42.855014" elapsed="0.995708"/>
-</kw>
-<kw name="Fechar navegador" owner="Conexao_Web" type="TEARDOWN">
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:43.956697" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/closed.jpeg.png" target="_blank"&gt;&lt;img src="browser/screenshot/closed.jpeg.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>closed.jpeg</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:43.853241" elapsed="0.103456"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Fechar navegador</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:43.957701" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:43.852230" elapsed="0.106472"/>
-</kw>
-<doc>Nesse cenario estamos validando o Titulo de Notícias, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)</doc>
-<tag>Cénario 01.02: No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)</tag>
-<status status="PASS" start="2024-08-01T20:44:36.033858" elapsed="7.924844"/>
-</test>
-<test id="s1-s1-t3" name="Cénario 01.03: No menu O Agibank - Escolhendo a opção &quot;Carreira&quot; (com e-mail assinado na Newsletter)" line="31">
-<kw name="Abri o Blog do Agibank" owner="Conexao_Web" type="SETUP">
-<kw name="New Browser" owner="Browser">
-<msg time="2024-08-01T20:44:44.527030" level="INFO">Switching browser to browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:44:44.531032" level="INFO">Successfully changed active browser: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:44:44.531032" level="INFO">Reusing existing browser with id: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<arg>${Navegador}</arg>
-<arg>${Headless}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:44.526022" elapsed="0.005010"/>
-</kw>
-<kw name="Uuid 4" owner="FakerLibrary">
-<msg time="2024-08-01T20:44:44.533040" level="INFO">${TRACE_NAME} = 62d21b9e-d81f-459d-9a4b-06ef6ac61e11</msg>
-<var>${TRACE_NAME}</var>
-<doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.</doc>
-<status status="PASS" start="2024-08-01T20:44:44.532045" elapsed="0.000995"/>
-</kw>
-<kw name="Get Current Date" owner="DateTime">
-<msg time="2024-08-01T20:44:44.534041" level="INFO">${NOW} = 01-08-2024_204444</msg>
-<var>${NOW}</var>
-<arg>result_format=%d-%m-%Y_%H%M%S</arg>
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<status status="PASS" start="2024-08-01T20:44:44.533040" elapsed="0.001001"/>
-</kw>
-<kw name="New Context" owner="Browser">
-<msg time="2024-08-01T20:44:44.536553" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "ignoreHTTPSErrors": true,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "tracing": "/frontend/resource/05_Evidencias/traces/01-08-2024_204444/62d21b9e-d81f-459d-9a4b-06ef6ac61e11.zip",
-  "viewport": {
-    "height": 1440,
-    "width": 2560
-  }
-}</msg>
-<msg time="2024-08-01T20:44:44.598782" level="INFO">Successfully created context and trace file will be saved to: C:\frontend\resource\05_Evidencias\traces\01-08-2024_204444\62d21b9e-d81f-459d-9a4b-06ef6ac61e11.zip</msg>
-<msg time="2024-08-01T20:44:44.598782" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': True, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'tracing': '/frontend/resource/05_Evidencias/traces/01-08-2024_204444/62d21b9e-d81f-459d-9a4b-06ef6ac61e11.zip', 'viewport': {'height': 1440, 'width': 2560}, 'trace': {'screenshots': True, 'snapshots': True}}</msg>
-<arg>viewport={'width':2560, 'height':1440}</arg>
-<arg>ignoreHTTPSErrors=true</arg>
-<arg>tracing=/frontend/resource/05_Evidencias/traces/${NOW}/${TRACE_NAME}.zip</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:44.535033" elapsed="0.064743"/>
-</kw>
-<kw name="New Page" owner="Browser">
-<msg time="2024-08-01T20:44:45.594783" level="INFO">Successfully initialized new page object and opened url: https://blogdoagi.com.br/</msg>
-<arg>${URL}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2024-08-01T20:44:44.599776" elapsed="0.996027"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:44.525000" elapsed="1.070803"/>
-</kw>
-<kw name="Given esteja na pagina inicial do Blog Agibank" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Validação da tela (2 - sem imagem) - Contendo: O Agibank; Produtos" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:45.599815" elapsed="0.001995"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:45.937035" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:45.601810" elapsed="0.336224"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:46.112514" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:45.938034" elapsed="0.174480"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.112514" elapsed="0.000998"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:45.598826" elapsed="0.514686"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Serviços; Suas finanças" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.115023" elapsed="0.001012"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:46.278258" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.116035" elapsed="0.162223"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:46.439801" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.279257" elapsed="0.161132"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.440389" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:46.115023" elapsed="0.326290"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Sua segurança; Stories" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.441313" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:46.623912" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.442900" elapsed="0.181012"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:46.755607" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.623912" elapsed="0.131695"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.755607" elapsed="0.000999"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:46.441313" elapsed="0.315293"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: O Agibank;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.757608" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:46.896004" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.758607" elapsed="0.137397"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:47.059661" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/O%20Agibank.png" target="_blank"&gt;&lt;img src="browser/screenshot/O%20Agibank.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:46.896004" elapsed="0.163657"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:47.059661" elapsed="0.000998"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:46.756606" elapsed="0.304053"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:45.596799" elapsed="1.463860"/>
-</kw>
-<kw name="When escolho no Menu &quot;O Agibank&quot; escolhendo a opção &quot;Carreira&quot;" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Clico na opção &quot;O Agibank&quot;" owner="Metodos_globais" source_name="Clico na opção &quot;${Variavel_1}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico na opção "${Variavel_1}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:47.062662" elapsed="0.001004"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:47.065170" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'O Agibank')])[1]'.</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:47.064665" elapsed="0.243237"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:47.061661" elapsed="0.247247"/>
-</kw>
-<kw name="Validação da tela (3 - sem imagem) - Contendo: Colunas; Notícias; Carreira" owner="Metodos_globais" source_name="Validação da tela (3 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}; ${Variavel_3}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}; ${Variavel_3}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:47.308908" elapsed="0.000998"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:47.905623" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:47.309906" elapsed="0.596707"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:48.104806" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:47.906613" elapsed="0.198707"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:48.286436" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_3}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.106329" elapsed="0.180107"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.286436" elapsed="0.000993"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:47.308908" elapsed="0.979520"/>
-</kw>
-<kw name="Clico na opção &quot;Carreira&quot;" owner="Metodos_globais" source_name="Clico na opção &quot;${Variavel_1}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico na opção "${Variavel_1}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.289434" elapsed="0.000994"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:48.291430" level="INFO">Clicks the element '(//span[@class='menu-text'][contains(.,'Carreira')])[1]'.</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.290428" elapsed="0.211167"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:48.288428" elapsed="0.213167"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:47.061661" elapsed="1.440935"/>
-</kw>
-<kw name="And sistema exibe a as informações da pagina &quot;Carreira&quot;" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="validação da exibição do 1º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:48.851961" level="INFO">Text: 'Inscrições abertas para a edição 2024 do nosso programa de estágio. Participe!'</msg>
-<msg time="2024-08-01T20:44:48.851961" level="INFO">${Validacao_card} = Inscrições abertas para a edição 2024 do nosso programa de estágio. Participe!</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.503106" elapsed="0.348855"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:48.851961" level="INFO">Titulo do 1º: Inscrições abertas para a edição 2024 do nosso programa de estágio. Participe!</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.851961" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.852965" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:48.503106" elapsed="0.349859"/>
-</kw>
-<kw name="validação da exibição do 2º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:48.923023" level="INFO">Text: 'Agibank está com 40 vagas abertas em Campinas\xa0'</msg>
-<msg time="2024-08-01T20:44:48.923023" level="INFO">${Validacao_card} = Agibank está com 40 vagas abertas em Campinas </msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.853960" elapsed="0.069063"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:48.924036" level="INFO">Titulo do 2º: Agibank está com 40 vagas abertas em Campinas </msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.924036" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.925036" elapsed="0.000507"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:48.853960" elapsed="0.071583"/>
-</kw>
-<kw name="validação da exibição do 3º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:49.006626" level="INFO">Text: 'Agibank, AWS, ilegra e Instituto Caldeira realizam programa de treinamento que visa recrutar 2 mil jovens para o setor de tecnologia\xa0'</msg>
-<msg time="2024-08-01T20:44:49.006626" level="INFO">${Validacao_card} = Agibank, AWS, ilegra e Instituto Caldeira realizam programa de treinamento que visa recrutar 2 mil jovens para o setor de tecnologia </msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:48.926554" elapsed="0.081071"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:49.007625" level="INFO">Titulo do 3º: Agibank, AWS, ilegra e Instituto Caldeira realizam programa de treinamento que visa recrutar 2 mil jovens para o setor de tecnologia </msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.007625" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.007625" elapsed="0.001002"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:48.925543" elapsed="0.084081"/>
-</kw>
-<kw name="Validação da tela com texto &quot;Se inscreva em nossa Newsletter&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela com texto "${txt}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.009624" elapsed="0.000999"/>
-</kw>
-<kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:44:49.076345" level="INFO">JavaScript executed successfully.</msg>
-<arg>text="${txt}"</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.010623" elapsed="0.065722"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:49.420532" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" target="_blank"&gt;&lt;img src="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${txt}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.076345" elapsed="0.344187"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:49.009624" elapsed="0.410908"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: Carreira;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.421532" elapsed="0.001004"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:49.609753" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.422536" elapsed="0.188205"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:49.724607" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Carreira.png" target="_blank"&gt;&lt;img src="browser/screenshot/Carreira.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.610741" elapsed="0.113866"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.725117" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:49.421532" elapsed="0.303585"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:48.503106" elapsed="1.222011"/>
-</kw>
-<kw name="And informo o e-mail na Newsletter" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Informo no campo &quot;Endereço de e-mail&quot;: &quot;${Email}&quot;" owner="Metodos_globais" source_name="Informo no campo &quot;${Campo}&quot;: &quot;${Informacao}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Informo no campo "${Campo}": "${Informacao}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.727125" elapsed="0.001001"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2024-08-01T20:44:49.730130" level="INFO">Fills the text 'cassioraijonh_2@hotmail.com' in the given field.</msg>
-<arg>//input[contains(@placeholder,'${Campo}')]</arg>
-<arg>${Informacao}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.728126" elapsed="0.055832"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:49.727125" elapsed="0.057808"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:49.726137" elapsed="0.058796"/>
-</kw>
-<kw name="And seleciono no botão Assinar" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Clico no botão &quot;Assinar&quot;" owner="Metodos_globais" source_name="Clico no botão &quot;${Botao}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico no botão "${Botao}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.786427" elapsed="0.001027"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:49.789442" level="INFO">Clicks the element 'text="Assinar"'.</msg>
-<arg>text="${Botao}"</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:49.788448" elapsed="1.181222"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:49.786427" elapsed="1.183841"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:49.784933" elapsed="1.185335"/>
-</kw>
-<kw name="Then sistema exibe mensagem que e-mail ja esta assinado" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Validação da tela com texto &quot;Você já assinou este site. Verifique sua caixa de entrada. Você pode gerenciar suas preferências no&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela com texto "${txt}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:50.972794" elapsed="0.001018"/>
-</kw>
-<kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:44:51.258867" level="INFO">JavaScript executed successfully.</msg>
-<arg>text="${txt}"</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:44:50.973812" elapsed="0.286048"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:52.025687" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" target="_blank"&gt;&lt;img src="browser/screenshot/Voc%C3%AA%20j%C3%A1%20assinou%20este%20site.%20Verifique%20sua%20caixa%20de%20entrada.%20Voc%C3%AA%20pode%20gerenciar%20suas%20prefer%C3%AAncias%20no.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${txt}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:51.259860" elapsed="0.765827"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:50.971861" elapsed="1.053826"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:50.970268" elapsed="1.055419"/>
-</kw>
-<kw name="Fechar navegador" owner="Conexao_Web" type="TEARDOWN">
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:52.120288" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/closed.jpeg.png" target="_blank"&gt;&lt;img src="browser/screenshot/closed.jpeg.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>closed.jpeg</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:52.028223" elapsed="0.092835"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Fechar navegador</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:52.121058" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:52.027207" elapsed="0.093851"/>
-</kw>
-<doc>Nesse cenario estamos validando o Titulo de Carreita, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)</doc>
-<tag>Cénario 01.03: No menu O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter)</tag>
-<status status="PASS" start="2024-08-01T20:44:44.519010" elapsed="7.602048"/>
-</test>
-<status status="PASS" start="2024-08-01T20:44:25.158150" elapsed="27.552695"/>
-</suite>
-<suite id="s1-s2" name="02 fluxo do menu Produtos" source="c:\Users\cassi\Desktop\Automações\Git_Hub\Web\Automacao_Web_Robot_Framework\tests\Fluxo_das_fucionalidade_do_Menu\02_fluxo_do_menu_Produtos.robot">
-<test id="s1-s2-t1" name="Cénario 02.01: Validando 1º Card da pagina &quot;Empréstimo Consignado&quot; (pesquisando pela lupa)" line="10">
-<kw name="Abri o Blog do Agibank" owner="Conexao_Web" type="SETUP">
-<kw name="New Browser" owner="Browser">
-<msg time="2024-08-01T20:44:52.751163" level="INFO">Switching browser to browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:44:52.753163" level="INFO">Successfully changed active browser: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:44:52.754674" level="INFO">Reusing existing browser with id: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<arg>${Navegador}</arg>
-<arg>${Headless}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:52.750163" elapsed="0.004511"/>
-</kw>
-<kw name="Uuid 4" owner="FakerLibrary">
-<msg time="2024-08-01T20:44:52.755684" level="INFO">${TRACE_NAME} = 0a962f0a-bce0-4358-829c-08d49b06a4e5</msg>
-<var>${TRACE_NAME}</var>
-<doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.</doc>
-<status status="PASS" start="2024-08-01T20:44:52.754674" elapsed="0.001010"/>
-</kw>
-<kw name="Get Current Date" owner="DateTime">
-<msg time="2024-08-01T20:44:52.755684" level="INFO">${NOW} = 01-08-2024_204452</msg>
-<var>${NOW}</var>
-<arg>result_format=%d-%m-%Y_%H%M%S</arg>
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<status status="PASS" start="2024-08-01T20:44:52.755684" elapsed="0.001000"/>
-</kw>
-<kw name="New Context" owner="Browser">
-<msg time="2024-08-01T20:44:52.758683" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "ignoreHTTPSErrors": true,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "tracing": "/frontend/resource/05_Evidencias/traces/01-08-2024_204452/0a962f0a-bce0-4358-829c-08d49b06a4e5.zip",
-  "viewport": {
-    "height": 1440,
-    "width": 2560
-  }
-}</msg>
-<msg time="2024-08-01T20:44:52.785832" level="INFO">Successfully created context and trace file will be saved to: C:\frontend\resource\05_Evidencias\traces\01-08-2024_204452\0a962f0a-bce0-4358-829c-08d49b06a4e5.zip</msg>
-<msg time="2024-08-01T20:44:52.785832" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': True, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'tracing': '/frontend/resource/05_Evidencias/traces/01-08-2024_204452/0a962f0a-bce0-4358-829c-08d49b06a4e5.zip', 'viewport': {'height': 1440, 'width': 2560}, 'trace': {'screenshots': True, 'snapshots': True}}</msg>
-<arg>viewport={'width':2560, 'height':1440}</arg>
-<arg>ignoreHTTPSErrors=true</arg>
-<arg>tracing=/frontend/resource/05_Evidencias/traces/${NOW}/${TRACE_NAME}.zip</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:44:52.756684" elapsed="0.029148"/>
-</kw>
-<kw name="New Page" owner="Browser">
-<msg time="2024-08-01T20:44:53.952606" level="INFO">Successfully initialized new page object and opened url: https://blogdoagi.com.br/</msg>
-<arg>${URL}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2024-08-01T20:44:52.786837" elapsed="1.165769"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:52.749166" elapsed="1.204440"/>
-</kw>
-<kw name="Given esteja na pagina inicial do Blog Agibank" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Validação da tela (2 - sem imagem) - Contendo: O Agibank; Produtos" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:53.955712" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:54.261768" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:53.955712" elapsed="0.306056"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:54.429062" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.261768" elapsed="0.167294"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.430063" elapsed="0.001011"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:53.954602" elapsed="0.477465"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Serviços; Suas finanças" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.432067" elapsed="0.000995"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:54.549716" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.433062" elapsed="0.116654"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:54.658350" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.549716" elapsed="0.109633"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.659349" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:54.432067" elapsed="0.227282"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Sua segurança; Stories" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.660349" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:54.762210" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.660349" elapsed="0.101861"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:54.856896" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.762210" elapsed="0.094686"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.856896" elapsed="0.001021"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:54.660349" elapsed="0.197568"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: O Agibank;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.858900" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:54.967165" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.858900" elapsed="0.108265"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:55.119761" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/O%20Agibank.png" target="_blank"&gt;&lt;img src="browser/screenshot/O%20Agibank.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:54.967165" elapsed="0.152596"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.119761" elapsed="0.001003"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:54.857917" elapsed="0.262847"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:53.953606" elapsed="1.167158"/>
-</kw>
-<kw name="When realizo a pesquisar na lupa por &quot;Empréstimo Consignado&quot;" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="Pesquiso na lupa por &quot;Empréstimo Consignado&quot;" owner="Metodos_globais" source_name="Pesquiso na lupa por &quot;${Pesquisa}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Realizo a pesquisar na lupa por "${Pesquisa}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.121762" elapsed="0.000998"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:55.123761" level="INFO">Clicks the element '(//span[contains(@class,'ast-icon icon-search')])[2]'.</msg>
-<arg>${Icone_Lupa}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.122760" elapsed="0.067384"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2024-08-01T20:44:55.190144" level="INFO">Fills the text 'Empréstimo Consignado' in the given field.</msg>
-<arg>//input[contains(@type,'search')]</arg>
-<arg>${Pesquisa}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.190144" elapsed="0.054903"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:55.245935" level="INFO">Clicks the element '(//span[contains(@class,'ast-icon icon-search')])[2]'.</msg>
-<arg>${Icone_Lupa}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.245047" elapsed="0.215671"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:55.121762" elapsed="0.338956"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:55.121762" elapsed="0.338956"/>
-</kw>
-<kw name="And sistema exibe o resultado da pesquisa na lupa" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="validação da exibição do 1º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:55.874614" level="INFO">Text: 'Como Funciona a Portabilidade de Empréstimo Consignado?'</msg>
-<msg time="2024-08-01T20:44:55.875126" level="INFO">${Validacao_card} = Como Funciona a Portabilidade de Empréstimo Consignado?</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.462709" elapsed="0.412417"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:55.875126" level="INFO">Titulo do 1º: Como Funciona a Portabilidade de Empréstimo Consignado?</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.875126" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.876133" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:55.462709" elapsed="0.413424"/>
-</kw>
-<kw name="validação da exibição do 2º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:55.923711" level="INFO">Text: 'Representante Legal pode fazer Empréstimo Consignado?'</msg>
-<msg time="2024-08-01T20:44:55.924709" level="INFO">${Validacao_card} = Representante Legal pode fazer Empréstimo Consignado?</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.877133" elapsed="0.047576"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:55.925217" level="INFO">Titulo do 2º: Representante Legal pode fazer Empréstimo Consignado?</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.925217" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.925217" elapsed="0.001009"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:55.877133" elapsed="0.049093"/>
-</kw>
-<kw name="validação da exibição do 3º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:55.976840" level="INFO">Text: 'Como desbloquear o benefício INSS para empréstimo consignado?'</msg>
-<msg time="2024-08-01T20:44:55.976840" level="INFO">${Validacao_card} = Como desbloquear o benefício INSS para empréstimo consignado?</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.927236" elapsed="0.049604"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:55.976840" level="INFO">Titulo do 3º: Como desbloquear o benefício INSS para empréstimo consignado?</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.976840" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.978353" elapsed="0.001010"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:55.926226" elapsed="0.054143"/>
-</kw>
-<kw name="Validação da tela com texto &quot;Se inscreva em nossa Newsletter&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela com texto "${txt}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.981369" elapsed="0.000992"/>
-</kw>
-<kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:44:56.036933" level="INFO">JavaScript executed successfully.</msg>
-<arg>text="${txt}"</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:44:55.982361" elapsed="0.054572"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:56.715529" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" target="_blank"&gt;&lt;img src="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${txt}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:56.037936" elapsed="0.678602"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:55.980369" elapsed="0.736169"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: Empréstimo Consignado;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:56.717537" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:56.893550" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:56.717537" elapsed="0.176013"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:57.033022" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Empr%C3%A9stimo%20Consignado.png" target="_blank"&gt;&lt;img src="browser/screenshot/Empr%C3%A9stimo%20Consignado.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:56.895119" elapsed="0.137903"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:57.034021" elapsed="0.000996"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:56.716538" elapsed="0.318479"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:55.461710" elapsed="1.573821"/>
-</kw>
-<kw name="And seleciono o primeiro card da pagina &quot;Empréstimo Consignado&quot;" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="Clico no 1º card" owner="Metodos_globais" source_name="Clico no ${Posiscao_Card}º card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:44:57.110228" level="INFO">Text: 'Como Funciona a Portabilidade de Empréstimo Consignado?'</msg>
-<msg time="2024-08-01T20:44:57.111232" level="INFO">${Card} = Como Funciona a Portabilidade de Empréstimo Consignado?</msg>
-<var>${Card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:57.038560" elapsed="0.072672"/>
-</kw>
-<kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2024-08-01T20:44:57.112215" level="INFO">${Card} = Como Funciona a Portabilidade de Empréstimo Consignado?</msg>
-<arg>${Card}</arg>
-<doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2024-08-01T20:44:57.111232" elapsed="0.000983"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:44:57.112215" level="INFO">Clico no 1º card com Titulo: "Como Funciona a Portabilidade de Empréstimo Consignado?"</msg>
-<arg>Clico no ${Posiscao_Card}º card com Titulo: "${Card}"</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:44:57.112215" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico no ${Posiscao_Card}º card com Titulo: "${Card}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:57.112215" elapsed="0.001341"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:44:57.113556" level="INFO">Clicks the element 'text=Como Funciona a Portabilidade de Empréstimo Consignado?'.</msg>
-<arg>text=${Card}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:57.113556" elapsed="1.081289"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:57.036543" elapsed="1.158302"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:57.036543" elapsed="1.159248"/>
-</kw>
-<kw name="Then sistema exibe as informações do 1º card da pagina &quot;Empréstimo Consignado&quot;" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="Validação do Titulo da pagina após clicar no card" owner="Metodos_globais">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da pagina após clicar nos card: ${Card} \n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:58.200329" elapsed="0.001803"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:58.691908" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>//h1[contains(.,'${Card}')]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:58.202132" elapsed="0.489776"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:59.249994" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:58.691908" elapsed="0.558086"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:58.200329" elapsed="1.049665"/>
-</kw>
-<kw name="Validação da tela (2 - com imagem) - Contendo: Home; Produtos;" owner="Metodos_globais" source_name="Validação da tela (2 - com imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:59.250990" elapsed="0.001001"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:59.531174" level="INFO">States are: ['detached']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:59.251991" elapsed="0.279183"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:44:59.796788" level="INFO">States are: ['detached']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:44:59.532176" elapsed="0.265632"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:44:59.941073" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Home.png" target="_blank"&gt;&lt;img src="browser/screenshot/Home.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:59.797808" elapsed="0.144265"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:44:59.942073" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:59.250990" elapsed="0.691083"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:58.197807" elapsed="1.745263"/>
-</kw>
-<kw name="Fechar navegador" owner="Conexao_Web" type="TEARDOWN">
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:45:00.089777" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/closed.jpeg.png" target="_blank"&gt;&lt;img src="browser/screenshot/closed.jpeg.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>closed.jpeg</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:44:59.943070" elapsed="0.147708"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Fechar navegador</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:00.090778" elapsed="0.000508"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:44:59.943070" elapsed="0.148216"/>
-</kw>
-<doc>Realizo a pesquisa na lupa por "Empréstimo Consignado"
-
-Em seguida clico no 1º card da pagina e vejo se exibir as informações</doc>
-<tag>Cénario 02.01: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)</tag>
-<status status="PASS" start="2024-08-01T20:44:52.745002" elapsed="7.347291"/>
-</test>
-<test id="s1-s2-t2" name="Cénario 02.02: Validando 1º Card da pagina &quot;Empréstimo Pessoal&quot; (pesquisando pela lupa)" line="22">
-<kw name="Abri o Blog do Agibank" owner="Conexao_Web" type="SETUP">
-<kw name="New Browser" owner="Browser">
-<msg time="2024-08-01T20:45:00.431639" level="INFO">Switching browser to browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:45:00.437811" level="INFO">Successfully changed active browser: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<msg time="2024-08-01T20:45:00.437811" level="INFO">Reusing existing browser with id: browser=f43608ec-179f-43ec-8b19-dc3ff04aea81</msg>
-<arg>${Navegador}</arg>
-<arg>${Headless}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:45:00.430643" elapsed="0.008165"/>
-</kw>
-<kw name="Uuid 4" owner="FakerLibrary">
-<msg time="2024-08-01T20:45:00.439806" level="INFO">${TRACE_NAME} = fd742904-1ff1-46a6-a3d5-c2da5d3cdca3</msg>
-<var>${TRACE_NAME}</var>
-<doc>Generate a random UUID4 object and cast it to another type if specified using a callable ``cast_to``.</doc>
-<status status="PASS" start="2024-08-01T20:45:00.438808" elapsed="0.000998"/>
-</kw>
-<kw name="Get Current Date" owner="DateTime">
-<msg time="2024-08-01T20:45:00.439806" level="INFO">${NOW} = 01-08-2024_204500</msg>
-<var>${NOW}</var>
-<arg>result_format=%d-%m-%Y_%H%M%S</arg>
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<status status="PASS" start="2024-08-01T20:45:00.439806" elapsed="0.001001"/>
-</kw>
-<kw name="New Context" owner="Browser">
-<msg time="2024-08-01T20:45:00.444807" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "ignoreHTTPSErrors": true,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "tracing": "/frontend/resource/05_Evidencias/traces/01-08-2024_204500/fd742904-1ff1-46a6-a3d5-c2da5d3cdca3.zip",
-  "viewport": {
-    "height": 1440,
-    "width": 2560
-  }
-}</msg>
-<msg time="2024-08-01T20:45:00.504917" level="INFO">Successfully created context and trace file will be saved to: C:\frontend\resource\05_Evidencias\traces\01-08-2024_204500\fd742904-1ff1-46a6-a3d5-c2da5d3cdca3.zip</msg>
-<msg time="2024-08-01T20:45:00.504917" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': True, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'tracing': '/frontend/resource/05_Evidencias/traces/01-08-2024_204500/fd742904-1ff1-46a6-a3d5-c2da5d3cdca3.zip', 'viewport': {'height': 1440, 'width': 2560}, 'trace': {'screenshots': True, 'snapshots': True}}</msg>
-<arg>viewport={'width':2560, 'height':1440}</arg>
-<arg>ignoreHTTPSErrors=true</arg>
-<arg>tracing=/frontend/resource/05_Evidencias/traces/${NOW}/${TRACE_NAME}.zip</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2024-08-01T20:45:00.440807" elapsed="0.065082"/>
-</kw>
-<kw name="New Page" owner="Browser">
-<msg time="2024-08-01T20:45:01.813910" level="INFO">Successfully initialized new page object and opened url: https://blogdoagi.com.br/</msg>
-<arg>${URL}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2024-08-01T20:45:00.505889" elapsed="1.309020"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:00.430643" elapsed="1.384266"/>
-</kw>
-<kw name="Given esteja na pagina inicial do Blog Agibank" owner="Steps_01_fluxo_do_menu_O_Agibank">
-<kw name="Validação da tela (2 - sem imagem) - Contendo: O Agibank; Produtos" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:01.816030" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:02.041612" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:01.817029" elapsed="0.224583"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:02.187034" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.042608" elapsed="0.145425"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.188033" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:01.814909" elapsed="0.374126"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Serviços; Suas finanças" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.189035" elapsed="0.000000"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:02.318078" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.190034" elapsed="0.128044"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:02.427797" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.318078" elapsed="0.109719"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.428797" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:02.189035" elapsed="0.239762"/>
-</kw>
-<kw name="Validação da tela (2 - sem imagem) - Contendo: Sua segurança; Stories" owner="Metodos_globais" source_name="Validação da tela (2 - sem imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.429802" elapsed="0.000998"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:02.564822" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.430800" elapsed="0.134528"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:02.674690" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.565328" elapsed="0.110373"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.675701" elapsed="0.000998"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:02.428797" elapsed="0.247902"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: O Agibank;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.676699" elapsed="0.001005"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:02.795781" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.677704" elapsed="0.119077"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:45:02.961039" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/O%20Agibank.png" target="_blank"&gt;&lt;img src="browser/screenshot/O%20Agibank.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.796781" elapsed="0.165258"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.962039" elapsed="0.000998"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:02.676699" elapsed="0.286338"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:01.814909" elapsed="1.148128"/>
-</kw>
-<kw name="When realizo a pesquisar na lupa por &quot;Empréstimo Pessoal&quot;" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="Pesquiso na lupa por &quot;Empréstimo Pessoal&quot;" owner="Metodos_globais" source_name="Pesquiso na lupa por &quot;${Pesquisa}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Realizo a pesquisar na lupa por "${Pesquisa}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.964037" elapsed="0.001002"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:45:02.965039" level="INFO">Clicks the element '(//span[contains(@class,'ast-icon icon-search')])[2]'.</msg>
-<arg>${Icone_Lupa}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:02.965039" elapsed="0.067386"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2024-08-01T20:45:03.033436" level="INFO">Fills the text 'Empréstimo Pessoal' in the given field.</msg>
-<arg>//input[contains(@type,'search')]</arg>
-<arg>${Pesquisa}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.032425" elapsed="0.055676"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:45:03.089100" level="INFO">Clicks the element '(//span[contains(@class,'ast-icon icon-search')])[2]'.</msg>
-<arg>${Icone_Lupa}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.088101" elapsed="0.215056"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:02.964037" elapsed="0.340629"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:02.963037" elapsed="0.341629"/>
-</kw>
-<kw name="And sistema exibe o resultado da pesquisa na lupa" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="validação da exibição do 1º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:45:03.728550" level="INFO">Text: 'Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!'</msg>
-<msg time="2024-08-01T20:45:03.728550" level="INFO">${Validacao_card} = Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.306592" elapsed="0.421958"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:45:03.729552" level="INFO">Titulo do 1º: Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.729552" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.730551" elapsed="0.000999"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:03.305577" elapsed="0.425973"/>
-</kw>
-<kw name="validação da exibição do 2º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:45:03.788520" level="INFO">Text: 'O que é Empréstimo Pessoal? Como funciona e como contratar o Crédito'</msg>
-<msg time="2024-08-01T20:45:03.788520" level="INFO">${Validacao_card} = O que é Empréstimo Pessoal? Como funciona e como contratar o Crédito</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.732552" elapsed="0.056963"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:45:03.789515" level="INFO">Titulo do 2º: O que é Empréstimo Pessoal? Como funciona e como contratar o Crédito</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.789515" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.789515" elapsed="0.001000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:03.731550" elapsed="0.058965"/>
-</kw>
-<kw name="validação da exibição do 3º Card" owner="Metodos_globais" source_name="validação da exibição do ${Posiscao_Card}º Card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:45:03.862925" level="INFO">Text: 'Empréstimo para Aposentado: o que é, como fazer e qual a taxa de juros?'</msg>
-<msg time="2024-08-01T20:45:03.862925" level="INFO">${Validacao_card} = Empréstimo para Aposentado: o que é, como fazer e qual a taxa de juros?</msg>
-<var>${Validacao_card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.791525" elapsed="0.071400"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:45:03.863925" level="INFO">Titulo do 3º: Empréstimo para Aposentado: o que é, como fazer e qual a taxa de juros?</msg>
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.862925" elapsed="0.001000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Titulo do ${Posiscao_Card}º: ${Validacao_card}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.863925" elapsed="0.001003"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:03.790515" elapsed="0.074413"/>
-</kw>
-<kw name="Validação da tela com texto &quot;Se inscreva em nossa Newsletter&quot;" owner="Metodos_globais" source_name="Validação da tela com texto &quot;${txt}&quot;">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela com texto "${txt}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.866152" elapsed="0.001006"/>
-</kw>
-<kw name="Get Attribute Names" owner="Browser">
-<msg time="2024-08-01T20:45:03.925262" level="INFO">JavaScript executed successfully.</msg>
-<arg>text="${txt}"</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns all HTML attribute names of an element as a list.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.867158" elapsed="0.059112"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:45:04.622546" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" target="_blank"&gt;&lt;img src="browser/screenshot/Se%20inscreva%20em%20nossa%20Newsletter.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${txt}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:45:03.926270" elapsed="0.697274"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:03.864928" elapsed="0.758616"/>
-</kw>
-<kw name="Validação da tela (1 - com imagem) - Contendo: Empréstimo Consignado;" owner="Metodos_globais" source_name="Validação da tela (1 - com imagem) - Contendo: ${Variavel_1};">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1};</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:04.623544" elapsed="0.001508"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:04.812875" level="INFO">States are: ['attached', 'hidden', 'enabled', 'editable', 'defocused']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:04.626068" elapsed="0.187804"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:45:04.950845" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Empr%C3%A9stimo%20Consignado.png" target="_blank"&gt;&lt;img src="browser/screenshot/Empr%C3%A9stimo%20Consignado.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:45:04.813872" elapsed="0.137968"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:04.951840" elapsed="0.001002"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:04.623544" elapsed="0.329298"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:03.304666" elapsed="1.648176"/>
-</kw>
-<kw name="And seleciono o primeiro card da pagina &quot;Empréstimo Pessoal&quot;" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="Clico no 1º card" owner="Metodos_globais" source_name="Clico no ${Posiscao_Card}º card">
-<kw name="Get Text" owner="Browser">
-<msg time="2024-08-01T20:45:05.024832" level="INFO">Text: 'Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!'</msg>
-<msg time="2024-08-01T20:45:05.025841" level="INFO">${Card} = Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!</msg>
-<var>${Card}</var>
-<arg>(//a[contains(@rel,'bookmark')])[${Posiscao_Card}]</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:04.955349" elapsed="0.070492"/>
-</kw>
-<kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2024-08-01T20:45:05.025841" level="INFO">${Card} = Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!</msg>
-<arg>${Card}</arg>
-<doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2024-08-01T20:45:05.025841" elapsed="0.000000"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-08-01T20:45:05.026841" level="INFO">Clico no 1º card com Titulo: "Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!"</msg>
-<arg>Clico no ${Posiscao_Card}º card com Titulo: "${Card}"</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-08-01T20:45:05.026841" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Clico no ${Posiscao_Card}º card com Titulo: "${Card}"\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:05.026841" elapsed="0.002000"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2024-08-01T20:45:05.029842" level="INFO">Clicks the element 'text=Lançamento: Empréstimo Pessoal com pagamento via conta de luz. Confira!'.</msg>
-<arg>text=${Card}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:05.028841" elapsed="1.057690"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:04.954839" elapsed="1.132689"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:04.953837" elapsed="1.133691"/>
-</kw>
-<kw name="Then sistema exibe as informações do 1º card da pagina &quot;Empréstimo Pessoal&quot;" owner="Steps_02_fluxo_do_menu_Produtos">
-<kw name="Validação do Titulo da pagina após clicar no card" owner="Metodos_globais">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da pagina após clicar nos card: ${Card} \n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:06.089530" elapsed="0.001661"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:06.581376" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
-<arg>//h1[contains(.,'${Card}')]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:06.091191" elapsed="0.490185"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:45:07.075873" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:45:06.581376" elapsed="0.494497"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:06.088920" elapsed="0.986953"/>
-</kw>
-<kw name="Validação da tela (2 - com imagem) - Contendo: Home; Produtos;" owner="Metodos_globais" source_name="Validação da tela (2 - com imagem) - Contendo: ${Variavel_1}; ${Variavel_2}">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação da tela - Contendo: ${Variavel_1}; ${Variavel_2}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:07.076874" elapsed="0.001002"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:07.347128" level="INFO">States are: ['detached']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:07.077876" elapsed="0.269252"/>
-</kw>
-<kw name="Get Element States" owner="Browser">
-<msg time="2024-08-01T20:45:07.612706" level="INFO">States are: ['detached']</msg>
-<arg>(//span[@class='menu-text'][contains(.,'${Variavel_2}')])[1]</arg>
-<arg>validate</arg>
-<arg>value</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2024-08-01T20:45:07.348127" elapsed="0.264579"/>
-</kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:45:07.763354" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/Home.png" target="_blank"&gt;&lt;img src="browser/screenshot/Home.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>${Variavel_1}</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:45:07.613708" elapsed="0.151163"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Validação concluída!\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:07.764947" elapsed="0.000937"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:07.076874" elapsed="0.690019"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:06.088528" elapsed="1.678365"/>
-</kw>
-<kw name="Fechar navegador" owner="Conexao_Web" type="TEARDOWN">
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2024-08-01T20:45:07.940072" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/closed.jpeg.png" target="_blank"&gt;&lt;img src="browser/screenshot/closed.jpeg.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<arg>closed.jpeg</arg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-08-01T20:45:07.768898" elapsed="0.171174"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Fechar navegador</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2024-08-01T20:45:07.941071" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2024-08-01T20:45:07.767898" elapsed="0.173173"/>
-</kw>
-<doc>Realizo a pesquisa na lupa por "Empréstimo Pessoal"
-
-Em seguida clico no 1º card da pagina e vejo se exibir as informações</doc>
-<tag>Cénario 02.02: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)</tag>
-<status status="PASS" start="2024-08-01T20:45:00.425033" elapsed="7.517037"/>
-</test>
-<status status="PASS" start="2024-08-01T20:44:52.718368" elapsed="15.606675"/>
-</suite>
-<status status="PASS" start="2024-08-01T20:44:25.140085" elapsed="43.197205"/>
+<status status="PASS" start="2024-08-01T21:44:45.405273" elapsed="12.113194"/>
 </suite>
 <statistics>
 <total>
-<stat pass="5" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 <stat pass="1" fail="0" skip="0">Cénario 01.01: No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail assinado na Newsletter)</stat>
-<stat pass="1" fail="0" skip="0">Cénario 01.02: No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)</stat>
-<stat pass="1" fail="0" skip="0">Cénario 01.03: No menu O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter)</stat>
-<stat pass="1" fail="0" skip="0">Cénario 02.01: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)</stat>
-<stat pass="1" fail="0" skip="0">Cénario 02.02: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)</stat>
 </tag>
 <suite>
-<stat pass="5" fail="0" skip="0" id="s1" name="Fluxo das fucionalidade do Menu">Fluxo das fucionalidade do Menu</stat>
-<stat pass="3" fail="0" skip="0" id="s1-s1" name="01 fluxo do menu O Agibank">Fluxo das fucionalidade do Menu.01 fluxo do menu O Agibank</stat>
-<stat pass="2" fail="0" skip="0" id="s1-s2" name="02 fluxo do menu Produtos">Fluxo das fucionalidade do Menu.02 fluxo do menu Produtos</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="01 fluxo do menu O Agibank">01 fluxo do menu O Agibank</stat>
 </suite>
 </statistics>
 <errors>
