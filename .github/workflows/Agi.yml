@@ -30,16 +30,6 @@ jobs:
         if-no-files-found: ignore
         retention-days: 2
 
-  steps: Download results
-    - uses: actions/download-artifact@v3
-    with:
-      name: results-firefox
-  steps: Send results
-    uses: joonvena/robotframework-reporter-action@v2.5
-      with:
-        report_path: results-firefox
-        gh_access_token: ${{ secrets.GITHUB_TOKEN }}
-        show_passed_tests: true
 
     
 
