@@ -23,7 +23,6 @@ jobs:
     - run: robot -d ./resource/04_Evidencias tests
 
   steps: Uploads Results
-  if: always()
     - uses: actions/upload-artifact@v4
       with:
         name: results-firefox
@@ -32,7 +31,6 @@ jobs:
         retention-days: 2
 
   steps: Download results
-  if: always()
     - uses: actions/download-artifact@v3
     with:
       name: results-firefox
