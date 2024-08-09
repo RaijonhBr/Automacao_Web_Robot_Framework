@@ -15,7 +15,7 @@ ${URL}                      https://blogdoagi.com.br/                #<<<< URL d
 *** Keywords ***
 Abri o Blog do Agibank    # Parametros de qual navegador abri e habilitar informações do navegador
     New Browser    ${Navegador}           
-    ...            ${Headless}                # <<< Ao comentar essa linha a automação roda sem a exibição da tela
+    # ...            ${Headless}                # <<< Ao comentar essa linha a automação roda sem a exibição da tela
     # ...            args=["--start-maximized"]
     
 
