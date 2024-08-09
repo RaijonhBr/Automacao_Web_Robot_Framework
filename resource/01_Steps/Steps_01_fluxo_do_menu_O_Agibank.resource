@@ -13,6 +13,7 @@ esteja na pagina inicial do Blog Agibank
     Validação da tela (2 - sem imagem) - Contendo: Serviços; Suas finanças
     Validação da tela (2 - sem imagem) - Contendo: Sua segurança; Stories
     Validação da tela (1 - com imagem) - Contendo: O Agibank; 
+    Validação da tela (1 - sem imagem) - Contendo: Stories
 escolho no Menu "O Agibank" escolhendo aopção "Colunas" 
     Clico na opção "O Agibank"
     Validação da tela (3 - sem imagem) - Contendo: Colunas; Notícias; Carreira
