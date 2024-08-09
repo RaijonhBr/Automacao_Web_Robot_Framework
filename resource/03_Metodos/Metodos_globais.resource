@@ -64,11 +64,13 @@ Validação do Titulo da pagina após clicar no card
 ################# >>> Metodos de clicar <<< ########################
 Clico na opção "${Variavel_1}"
     Log To Console    Clico na opção "${Variavel_1}"\n
+    # ${old_timeout} =    Set Browser Timeout    1m 30 seconds
+    Hover    (//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]
     Click    (//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]
-
+    # Set Browser Timeout    ${old_timeout}
 Clico no Menu "${Variavel_1}"
     Log To Console    Clico no Menu "${Variavel_1}"\n
-    Click    (//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]
+    Hover    (//span[@class='menu-text'][contains(.,'${Variavel_1}')])[1]
 
 Clico no botão "${Botao}"
     Log To Console    Clico no botão "${Botao}"\n

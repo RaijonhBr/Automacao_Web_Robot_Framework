@@ -15,7 +15,7 @@ esteja na pagina inicial do Blog Agibank
     Validação da tela (1 - com imagem) - Contendo: O Agibank; 
     Validação da tela (1 - sem imagem) - Contendo: Stories
 escolho no Menu "O Agibank" escolhendo aopção "Colunas" 
-    Clico na opção "O Agibank"
+    Clico no Menu "O Agibank"
     Validação da tela (3 - sem imagem) - Contendo: Colunas; Notícias; Carreira
     Clico na opção "Colunas"
 sistema exibe as informações da pagina "Colunas"
@@ -34,7 +34,7 @@ sistema exibe mensagem que e-mail ja esta assinado
 
 ################### Cénario 02: O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)
 escolho no Menu "O Agibank" escolhendo a opção "Notícias"     
-    Clico na opção "O Agibank"
+    Clico no Menu "O Agibank"
     Validação da tela (3 - sem imagem) - Contendo: Colunas; Notícias; Carreira
     Clico na opção "Notícias"
 sistema exibe a as informações da pagina "Notícias"    
@@ -46,7 +46,7 @@ sistema exibe a as informações da pagina "Notícias"
 
 ################## Cénario 03: O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter)
 escolho no Menu "O Agibank" escolhendo a opção "Carreira" 
-    Clico na opção "O Agibank"
+    Clico no Menu "O Agibank"
     Validação da tela (3 - sem imagem) - Contendo: Colunas; Notícias; Carreira
     Clico na opção "Carreira"
 sistema exibe a as informações da pagina "Carreira"
