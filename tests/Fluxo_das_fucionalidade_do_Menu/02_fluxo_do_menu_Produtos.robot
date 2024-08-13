@@ -7,7 +7,7 @@ Test Setup       Abri o Blog do Agibank
 test Teardown    Fechar navegador
 
 *** Test Cases ***
-Cénario 02.01: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)
+Cénario 04: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)
     [Tags]    Cénario 02.01: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)
     [Documentation]    Realizo a pesquisa na lupa por "Empréstimo Consignado"
     ...
@@ -19,7 +19,7 @@ Cénario 02.01: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisan
     And seleciono o primeiro card da pagina "Empréstimo Consignado"
     Then sistema exibe as informações do 1º card da pagina "Empréstimo Consignado"
 
-Cénario 02.02: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)
+Cénario 05: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)
     [Tags]    Cénario 02.02: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)
     [Documentation]    Realizo a pesquisa na lupa por "Empréstimo Pessoal"
     ...

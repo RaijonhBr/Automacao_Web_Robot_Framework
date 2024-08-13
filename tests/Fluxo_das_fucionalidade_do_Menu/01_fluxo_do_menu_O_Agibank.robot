@@ -6,7 +6,7 @@ Test Setup       Abri o Blog do Agibank
 test Teardown    Fechar navegador
 
 *** Test Cases ***
-Cénario 01.01: No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail assinado na Newsletter)
+Cénario 01: No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail assinado na Newsletter)
     [Tags]    Cénario 01.01: No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail assinado na Newsletter)
     [Documentation]    Nesse cenario estamos validando o Titulo de Colunas, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)
     
@@ -17,7 +17,7 @@ Cénario 01.01: No menu O Agibank - Escolhendo a opção "Colunas" (com e-mail a
     Then seleciono no botão Assinar    
     # Then sistema exibe mensagem que e-mail ja esta assinado    
 
-Cénario 01.02: No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)
+Cénario 02: No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)
     [Tags]    Cénario 01.02: No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail assinado na Newsletter)
     [Documentation]    Nesse cenario estamos validando o Titulo de Notícias, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)
 
@@ -28,7 +28,7 @@ Cénario 01.02: No menu O Agibank - Escolhendo a opção "Noticias" (com e-mail 
     Then seleciono no botão Assinar    
     # Then sistema exibe mensagem que e-mail ja esta assinado  
 
-Cénario 01.03: No menu O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter)
+Cénario 03: No menu O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter)
     [Tags]    Cénario 01.03: No menu O Agibank - Escolhendo a opção "Carreira" (com e-mail assinado na Newsletter)
     [Documentation]    Nesse cenario estamos validando o Titulo de Carreita, dos 3 primeiros card exibidos e Newsletter (com e-mail já assinado)
 
