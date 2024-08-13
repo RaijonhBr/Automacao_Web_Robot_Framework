@@ -8,7 +8,8 @@ test Teardown    Fechar navegador
 
 *** Test Cases ***
 Cénario 04: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)
-    [Tags]    Cénario 02.01: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)
+    [Tags]    Cénario 04: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando pela lupa)
+
     [Documentation]    Realizo a pesquisa na lupa por "Empréstimo Consignado"
     ...
     ...                Em seguida clico no 1º card da pagina e vejo se exibir as informações
@@ -20,7 +21,8 @@ Cénario 04: Validando 1º Card da pagina "Empréstimo Consignado" (pesquisando 
     Then sistema exibe as informações do 1º card da pagina "Empréstimo Consignado"
 
 Cénario 05: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)
-    [Tags]    Cénario 02.02: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)
+    [Tags]    Cénario 05: Validando 1º Card da pagina "Empréstimo Pessoal" (pesquisando pela lupa)
+
     [Documentation]    Realizo a pesquisa na lupa por "Empréstimo Pessoal"
     ...
     ...                Em seguida clico no 1º card da pagina e vejo se exibir as informações
